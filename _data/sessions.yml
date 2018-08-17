@@ -16,20 +16,19 @@ day1:
   title: Introductory remarks
 - end: 10:20 AM
   start: 9:00 AM
-  talks: 'Orpheus: Efficient Distributed Machine Learning via System and Algorithm Co-design'
+  talks:
   - authors:
     - Pengtao Xie (Carnegie Mellon University)
     - Jin Kyu Kim (Carnegie Mellon University)
     - Qirong Ho (Petuum Inc.)
     - Yaoliang Yu (University of Waterloo)
     - Eric P. Xing (Petuum Inc.)
-    title: 'Dynamic and Decentralized Global Analytics via Machine Learning'
-    <!--url: 'https://dl.acm.org/authorize?N46858'-->
+    title: 'Orpheus: Efficient Distributed Machine Learning via System and Algorithm Co-design'
   - authors:
     - Hao Wang (University of Toronto)
     - Di Niu (University of Alberta)
     - Baochun Li (University of Toronto)
-    title: 'Secure Data Types: A Simple Abstraction for Confidentiality-Preserving Data Analytics'
+    title: 'Dynamic and Decentralized Global Analytics via Machine Learning'
     url: 'https://dl.acm.org/authorize?N46885'
   - authors:
     - Thomas Pasquier

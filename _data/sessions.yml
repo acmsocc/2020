@@ -23,14 +23,12 @@ day1:
     - Qirong Ho (Petuum Inc.)
     - Yaoliang Yu (University of Waterloo)
     - Eric P. Xing (Petuum Inc.)
-    title: 'CapNet: Security and Least Authority in a Capability-Enabled Cloud'
-    url: 'https://dl.acm.org/authorize?N46858'
+    title: 'Dynamic and Decentralized Global Analytics via Machine Learning'
+    <!--url: 'https://dl.acm.org/authorize?N46858'-->
   - authors:
-    - Savvas Savvides (Purdue University)
-    - Julian Stephen (IBM Research)
-    - Masoud Saieda Ardekani (Purdue University)
-    - Vinaitheerthan Sundaram (SensorHound, Inc)
-    - Patrick Eugster (TU Darmstadt)
+    - Hao Wang (University of Toronto)
+    - Di Niu (University of Alberta)
+    - Baochun Li (University of Toronto)
     title: 'Secure Data Types: A Simple Abstraction for Confidentiality-Preserving Data Analytics'
     url: 'https://dl.acm.org/authorize?N46885'
   - authors:

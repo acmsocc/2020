@@ -16,13 +16,13 @@ day1:
   title: Introductory remarks
 - end: 10:20 AM
   start: 9:00 AM
-  talks:
+  talks: 'Orpheus: Efficient Distributed Machine Learning via System and Algorithm Co-design'
   - authors:
-    - Anton Burtsev (University of California, Irvine)
-    - David Johnson
-    - Josh Kunz
-    - Eric Eide
-    - Jacobus Van der Merwe (University of Utah)
+    - Pengtao Xie (Carnegie Mellon University)
+    - Jin Kyu Kim (Carnegie Mellon University)
+    - Qirong Ho (Petuum Inc.)
+    - Yaoliang Yu (University of Waterloo)
+    - Eric P. Xing (Petuum Inc.)
     title: 'CapNet: Security and Least Authority in a Capability-Enabled Cloud'
     url: 'https://dl.acm.org/authorize?N46858'
   - authors:

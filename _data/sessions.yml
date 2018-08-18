@@ -29,27 +29,23 @@ day1:
     - Di Niu (University of Alberta)
     - Baochun Li (University of Toronto)
     title: 'Dynamic and Decentralized Global Analytics via Machine Learning'
-    url: 'https://dl.acm.org/authorize?N46885'
+    #url: 'https://dl.acm.org/authorize?N46885'
   - authors:
-    - Thomas Pasquier
-    - Xueyuan Han
-    - Mark Goldstein
-    - Margo Seltzer (Harvard University)
-    - Thomas Moyer (MIT Lincoln Laboratory)
-    - David Eyers (University of Otago)
-    - Jean Bacon (University of Cambridge)
-    title: 'Practical Whole-System Provenance Capture'
-    url: 'https://dl.acm.org/authorize?N46879'
+    - Huangshi Tian (Hong Kong University of Science and Technology) 
+    - Minchen Yu (Hong Kong University of Science and Technology) 
+    - Wei Wang (Hong Kong University of Science and Technology)
+    title: 'Continuum: A Platform for Cost-Aware, Low-Latency Continual Learning'
+    #url: 'https://dl.acm.org/authorize?N46879'
   - authors:
-    - Changzhen Wei (Intel Asia-Pacific Research & Development Ltd.)
-    - Jian Li (Shanghai Jiao Tong University)
-    - Weigang Li
-    - Ping Yu (Intel Asia-Pacific Research & Development Ltd.)
-    - Haibing Guan (Shanghai Jiao Tong University)
-    title: 'STYX: A Trusted and Accelerated Hierarchical SSL Key Management and Distribution System for Cloud Based CDN Application'
-    url: 'https://dl.acm.org/authorize?N46854'
+    - Liang Luo (University of Washington) 
+    - Jacob Nelson (Microsoft Research) 
+    - Luis Ceze (University of Washington)
+    - Amar Phanishayee (Microsoft Research) 
+    - Arvind Krishnamurthy (University of Washington)
+    title: 'Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training'
+    #url: 'https://dl.acm.org/authorize?N46854'
   title: 'Session 1 (Machine Learning)'
-  chair: 'Marcos Aguilera'
+  chair:
 - end: 10:50 AM
   start: 10:20 AM
   talks: []

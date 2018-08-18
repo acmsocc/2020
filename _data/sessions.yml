@@ -9,7 +9,8 @@ day1:
   start: 7:30 AM
   talks: []
   title: Breakfast
-  location : Salon D and E of the Grand Ballroom
+  location : 
+  #Salon D and E of the Grand Ballroom
 - end: 9:00 AM
   start: 8:45 AM
   talks: []
@@ -54,35 +55,36 @@ day1:
   start: 10:50 AM
   talks:
   - authors:
-    - Cheng Wang
-    - Xusheng Chen
-    - Jianyu Jiang
-    - Ning Yi
-    - Heming Cui (The University of Hong Kong)
-    title: 'APUS: Fast and Scalable PAXOS on RDMA'
-    url: 'https://dl.acm.org/authorize?N46855'
+    - Zhe Wu (Google)
+    - Edward Wijaya (University of Michigan)
+    - Muhammed Uluyol (University of Michigan)
+    - Harsha V. Madhyastha (University of Michigan)
+    title: 'Bolt-On Global Consistency for the Cloud'
+    #url: 'https://dl.acm.org/authorize?N46855'
   - authors:
-    - Hua Fan
-    - Wojciech Golab (University of Waterloo)
-    - Charles B. Morrey III (unaffiliated)
-    title: 'ALOHA-KV: High Performance Read-only and Write-only Distributed Transactions'
-    url: 'https://dl.acm.org/authorize?N46881'
+    - Hanyu Zhao (Peking University)
+    - Zhi Yang (Peking University)
+    - Quanlu Zhang (Microsoft Research Asia)
+    - Ming Wu (Microsoft Research Asia)
+    - Yafei Dai (Peking University)
+    title: 'SDPaxos: Building Efficient Semi-Decentralized Geo-replicated State Machines'
+    #url: 'https://dl.acm.org/authorize?N46881'
   - authors:
-    - Jake Wires
-    - Pradeep Ganesan
-    - Andrew Warfield (Coho Data)
-    title: 'Sketches of Space: Ownership Accounting for Shared Storage'
-    url: 'https://dl.acm.org/authorize?N46889'
+    - Eduardo Alchieri (Universidade de Brasilia) 
+    - Fernando Dotti (PUC) 
+    - Fernando Pedone (Universita della Svizzera italiana)
+    title: 'Early Scheduling in Parallel State Machine Replication'
+    #url: 'https://dl.acm.org/authorize?N46889'
   - authors:
-    - Yaochen Hu
-    - Yushi Wang
-    - Bang Liu
-    - Di Niu (University of Alberta)
-    - Cheng Huang (Microsoft Research Redmond)
-    title: 'Latency Reduction and Load Balancing in Coded Storage Systems'
-    url: 'https://dl.acm.org/authorize?N46876'
-  title: Session 2 (The Stateful Cloud)
-  chair: 'Irina Calciu'
+    - Ioannis Manousakis (Microsoft)
+    - Ricardo Bianchini (Microsoft Research)
+    - Inigo Goiri (Microsoft Research)
+    - Sandro Rigo (Unicamp Brazil)
+    - Thu D. Nguyen (Rutgers University)
+    title: 'Uncertainty Propagation in Data Processing Systems'
+    #url: 'https://dl.acm.org/authorize?N46876'
+  title: Session 2 (Consistency and Correctness)
+  chair: 'Yu Hua'
 - end: 1:30 PM
   start: 12:10 PM
   talks: []

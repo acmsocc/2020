@@ -41,6 +41,16 @@ layout: default
           </div>
         </section>
 
+        <section class="events small" id="events-small">
+          <header>
+            <h2>Links</h2>
+          </header>
+          <div class="section-content">
+            <ul class="list-links">
+	      <li><h4><a href="https://goo.gl/forms/VcOnxzX20BA5pd1B2">Applicant Form</a></h4></li>
+            </ul>
+          </div><!-- /.section-content -->
+        </section><!-- /.events-small -->
 
       </div><!-- /.col-md-3 -->
 
@@ -71,7 +81,7 @@ layout: default
             </p>
             <a id="howtoapply"><h2>How to apply</h2></a>
             <p>
-              First, fill out this <a href="https://goo.gl/forms/VcOnxzX20BA5pd1B2">form.</a>
+              First, fill out this <a href="https://goo.gl/forms/VcOnxzX20BA5pd1B2">Applicant Form.</a>
             </p>
             <p>
                Then, submit the following information (in PDF attachments) in one email to <a href="mailto:socc2018-scholarships@googlegroups.com">socc2018-scholarships@googlegroups.com</a>.
@@ -100,14 +110,7 @@ layout: default
       </div><!-- /.col-md-6 -->
 
       <div class="col-md-3">
-         <section class="news-small" id="news-small">
-  <header>
-    <h2>Latest news</h2>
-  </header>
-  <div class="section-content">
-	<a class="twitter-timeline" href="https://twitter.com/acmsocc">Tweets by @ACMSOCC</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</section><!-- /.news-small -->
-
+	{% include latest-news.html %}
       </div><!-- /.col-md-3 -->
 
     </div><!-- /.row -->

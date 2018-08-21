@@ -90,17 +90,17 @@ day1:
   talks: []
   title: Lunch
   location: Coming soon...
-- end: 2:30 PM
-  start: 1:30 PM
-  talks:
-  - authors:
-    - 'Raghu Ramakrishnan, Microsoft'
+#- end: 2:30 PM
+#  start: 1:30 PM
+#  talks:
+ # - authors:
+ #   - 'Raghu Ramakrishnan, Microsoft'
   title: 'Keynote 1' 
 - end: 2:50 PM
   start: 1:30 PM
   talks: []
   title: Mini-break
-- end: 2:50 PM
+ - end: 2:50 PM
   start: 1:30 PM
   talks:
   - authors:
@@ -135,7 +135,7 @@ day1:
     #url: 'https://dl.acm.org/authorize?N46742'
   title: Session 3 (Cloud Scheduling)
   chair: Coming soon...
-  - end: 3:00 PM
+- end: 3:00 PM
   start: 2:50 PM
   talks: []
   title: Mini-break

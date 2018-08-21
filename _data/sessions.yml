@@ -143,28 +143,37 @@ day1:
   start: 3:00 PM
   talks:
   - authors:
-    - Supreeth Shastri
-    - David Irwin (University of Massachusetts Amherst)
-    title: 'HotSpot: Automated Server Hopping in Cloud Spot Markets'
-    url: 'https://dl.acm.org/authorize?N46886'
+    - Hobin Yoon (Georgia Institute of Technology)
+    - Juncheng Yang (Emory University)
+    - Sveinn Fannar Kristjansson (Spotify)
+    - Steinn E. Sigurdarson (Takumi)
+    - Ymir Vigfusson (Emory & Reykjavik University)
+    - Ada Gavrilovska (Georgia Institute of Technology)
+    title: 'Mutant: Balancing Storage Cost and Latency in LSM-Tree Data Stores'
+    #url: 'https://dl.acm.org/authorize?N46886'
   - authors:
-    - Rebecca Smith
-    - Scott Rixner (Rice University)
-    title: 'A Policy-Based System for Dynamic Scaling of Virtual Machine Memory Reservations'
+    - Chao Zheng (University of Notre Dame)
+    - Lukas Rupprecht (IBM Research - Almaden)
+    - Vasily Tarasov (IBM Research - Almaden)
+    - Douglas Thain (University of Notre Dame)
+    - Mohamed Mohamed (IBM Research - Almaden)
+    - Dimitrios Skourtis (IBM Research - Almaden) 
+    - Amit S. Warke (IBM Research - Almaden)
+    - Dean Hildebrand (IBM Research - Almaden)
+    title: 'Wharf: Sharing Docker Images in a Distributed File System'
     #url: 'https://dl.acm.org/authorize?N46860'
   - authors:
-    - Fabien Hermenier (Nutanix inc.)
-    - Ludovic Henrio (UniversitÃ© CÃ´te dâ€™Azur, CNRS, I3S)
-    title: 'Trustable Virtual Machine Scheduling in a Cloud'
+    - Virajith Jalaparti (Microsoft)
+    - Chris Douglas (Microsoft)
+    - Mainak Ghosh (University of Illinois, Urbana-Champaign)
+    - Ashvin Agrawal (Microsoft)
+    - Avrilia Floratou (Microsoft)
+    - Srikanth Kandula (Microsoft)
+    - Ishai Menache (Microsoft)
+    - Joseph Naor (Technion)
+    - Sriram Rao (Microsoft)
+    title: 'Netco: Cache and I/O Management for Analytics over Disaggregated Stores'
     #url: 'https://dl.acm.org/authorize?N46749'
-  - authors:
-    - Lalith Suresh (VMWare Research)
-    - Peter Bodik
-    - Ishai Menache (Microsoft Research)
-    - Marco Canini (KAUST)
-    - Florin Ciucu (University of Warwick)
-    title: 'Distributed Resource Management across Process Boundaries'
-    #url: 'https://dl.acm.org/authorize?N46895'
   title: Session 4 (Storage in the Cloud)
   chair: Han Gunawi
 - end: 4:30 PM

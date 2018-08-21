@@ -90,12 +90,12 @@ day1:
   talks: []
   title: Lunch
   location: Coming soon...
-- end: 2:30 PM
-  start: 1:30 PM
-  talks:
-  - authors:
-    - 'Raghu Ramakrishnan, Microsoft'
-  title: 'Keynote 1' 
+#- end: 2:30 PM
+#  start: 1:30 PM
+#  talks:
+#  - authors:
+#    - 'Raghu Ramakrishnan, Microsoft'
+#  title: 'Keynote 1' 
 - end: 2:40 PM
   start: 2:30 PM
   talks: []

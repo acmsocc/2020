@@ -90,12 +90,12 @@ day1:
   talks: []
   title: Lunch
   location: Coming soon...
-- end: 2:30 PM
-  start: 1:30 PM
-  talks:
-  - authors:
-    - 'Raghu Ramakrishnan, Microsoft'
-  title: 'Keynote 1' 
+#- end: 2:30 PM
+#  start: 1:30 PM
+#  talks:
+#  - authors:
+#    - 'Raghu Ramakrishnan, Microsoft'
+#  title: 'Keynote 1' 
 - end: 2:40 PM
   start: 2:30 PM
   talks: []
@@ -150,12 +150,12 @@ day1:
     - Rebecca Smith
     - Scott Rixner (Rice University)
     title: 'A Policy-Based System for Dynamic Scaling of Virtual Machine Memory Reservations'
-    url: 'https://dl.acm.org/authorize?N46860'
+    #url: 'https://dl.acm.org/authorize?N46860'
   - authors:
     - Fabien Hermenier (Nutanix inc.)
     - Ludovic Henrio (UniversitÃ© CÃ´te dâ€™Azur, CNRS, I3S)
     title: 'Trustable Virtual Machine Scheduling in a Cloud'
-    url: 'https://dl.acm.org/authorize?N46749'
+    #url: 'https://dl.acm.org/authorize?N46749'
   - authors:
     - Lalith Suresh (VMWare Research)
     - Peter Bodik
@@ -163,9 +163,43 @@ day1:
     - Marco Canini (KAUST)
     - Florin Ciucu (University of Warwick)
     title: 'Distributed Resource Management across Process Boundaries'
-    url: 'https://dl.acm.org/authorize?N46895'
-  title: Session 4 (Managing the Cloud II)
-  chair: 'Vijayan Prabhakaran'
+    #url: 'https://dl.acm.org/authorize?N46895'
+  title: Session 4 (Storage in the Cloud)
+  chair: Coming soon
+- end: 5:50 PM
+  start: 4:30 PM
+  talks:
+  - authors:
+    - Daniel Williams (IBM Research)
+    - Ricardo Koller (IBM Research)
+    - Nikhil Acharya Prakash (Bits Pilani)
+    title: 'Unikernels as Processes'
+    #url: 'https://dl.acm.org/authorize?N46886'
+  - authors:
+    - Priyanka Naik (Indian Institute of Technology Bombay)
+    - Akash Kanase (Indian Institute of Technology Bombay)
+    - Trishal Patel (Indian Institute of Technology Bombay)
+    - Mythili Vutukuru (Indian Institute of Technology Bombay)
+    title: 'libVNF: Building Virtual Network Functions Made Easy'
+    #url: 'https://dl.acm.org/authorize?N46860'
+  - authors:
+    - Yanfang Le (UW-Madison)
+    - Brent Stephens (UW-Madison) 
+    - Arjun Singhvi (UW-Madison)
+    - Aditya Akella (UW-Madison)
+    - Michael Swift (UW-Madison)
+    title: 'RoGUE: RDMA over Generic Unconverged Ethernet'
+    #url: 'https://dl.acm.org/authorize?N46749'
+  - authors:
+    - Ki-dong Kang (DGIST)
+    - Mohammand Alian (UIUC)
+    - Daehoon Kim (DGIST)
+    - Jaehyuk Huh (KAIST)
+    - Nam Sung Kim (UIUC)
+    title: 'VIP: Virtual Performance-State for Efficient Power Management of Virtual Machines'
+    #url: 'https://dl.acm.org/authorize?N46895'
+  title: Session 5 (Cloud Infrastructure)
+  chair: Coming soon..
 - end: 6:00 PM
   start: 5:50 PM
   talks: []

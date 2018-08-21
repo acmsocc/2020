@@ -96,12 +96,12 @@ day1:
 #  - authors:
 #    - 'Raghu Ramakrishnan, Microsoft'
 #  title: 'Keynote 1' 
+#- end: 2:50 PM
+#  start: 1:30 PM
+#  talks: []
+#  title: Mini-break
 - end: 2:50 PM
   start: 1:30 PM
-  talks: []
-  title: Mini-break
-- end: 4:00 PM
-  start: 2:40 PM
   talks:
   - authors:
     - Timothy Zhu (Carnegie Mellon University)

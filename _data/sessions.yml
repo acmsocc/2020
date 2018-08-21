@@ -104,36 +104,37 @@ day1:
   start: 1:30 PM
   talks:
   - authors:
-    - Timothy Zhu (Carnegie Mellon University)
-    - Michael A. Kozuch (Intel Labs)
-    - Mor Harchol-Balter (Carnegie Mellon University)
-    title: 'WorkloadCompactor: Reducing datacenter cost while providing tail latency SLO guarantees'
-    url: 'https://dl.acm.org/authorize?N46884'
+    - Libin Liu (City University of Hong Kong)
+    - Hong Xu (City University of Hong Kong)
+    title: 'Elasecutor: Elastic Executor Scheduling in Data Analytics Systems'
+    #url: 'https://dl.acm.org/authorize?N46884'
   - authors:
-    - Yuqing Zhu
-    - Jianxun Liu
-    - Mengying Guo
-    - Yungang Bao (Institute of Computing Technology, Chinese Academy of Sciences)
-    - Kunpeng Song
-    - Zhuoyue Liu (Huawei)
-    title: 'BestConfig: Tapping the Performance Potential of Systems via Automatic Configuration Tuning'
-    url: 'https://dl.acm.org/authorize?N46864'
+    - Andrew Chung (Carnegie Mellon University)
+    - Jun Woo Park (Carnegie Mellon University)
+    - Gregory R. Ganger (Carnegie Mellon University)
+    title: 'Stratus: cost-aware container scheduling in the public cloud'
+    #url: 'https://dl.acm.org/authorize?N46864'
   - authors:
-    - Pawel Janus
-    - Krzysztof Rzadca (University of Warsaw, Poland)
-    title: 'SLO-aware Colocation of Data Center Tasks Based on Instantaneous Processor Requirements'
-    url: 'https://dl.acm.org/authorize?N46868'
+    - Pamela Delgado (EPFL)
+    - Diego Didona (EPFL)
+    - Florin Dinu (EPFL)
+    - Willy Zwaenepoel (EPFL)
+    title: 'Kairos: Preemptive Data Center Scheduling Without Runtime Estimates'
+    #url: 'https://dl.acm.org/authorize?N46868'
   - authors:
-    - Mohammad Shahrad (Princeton University)
-    - Cristian Klein (UmeÃ¥ University)
-    - Liang Zheng
-    - Mung Chiang (Princeton University)
-    - Erik Elmroth (UmeÃ¥ University)
-    - David Wentzlaff (Princeton University)
-    title: 'Incentivizing Self-Capping to Increase Cloud Utilization'
-    url: 'https://dl.acm.org/authorize?N46742'
-  title: Session 3 (Managing the Cloud I)
-  chair: 'Lakshmi Ganesh'
+    - Hao Zhou (Tencent Inc.)
+    - Ming Chen (Tencent Inc.)
+    - Qian Lin (National University of Singapore)
+    - Yong Wang (Tencent Inc.)
+    - Xiaobin She (Tencent Inc.)
+    - Sifan Liu (Tencent Inc.)
+    - Rui Gu (Columbia University)
+    - Beng Chin Ooi (National University of Singapore)
+    - Junfeng Yang (Columbia University)
+    title: 'Scalable Overload Control for Large-scale Microservice Architecture'
+    #url: 'https://dl.acm.org/authorize?N46742'
+  title: Session 3 (Cloud Scheduling)
+  chair: Coming soon...
 - end: 3:00 PM
   start: 2:50 PM
   talks: []
@@ -165,7 +166,7 @@ day1:
     title: 'Distributed Resource Management across Process Boundaries'
     #url: 'https://dl.acm.org/authorize?N46895'
   title: Session 4 (Storage in the Cloud)
-  chair: Coming soon
+  chair: Han Gunawi
 - end: 4:30 PM
   start: 4:00 PM
   talks: []

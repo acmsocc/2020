@@ -386,10 +386,6 @@ day3:
   talks: []
   title: Breakfast
   location : Coming soon...
-- end: 10:30 AM
-  start: 10:00 AM
-  talks: []
-  title: Break
 - end: 12:10 PM
   start: 10:30 AM
   talks:
@@ -437,11 +433,10 @@ day3:
     url: 'https://dl.acm.org/authorize?N46870'
   title: 'Session 9 (Cloud Potpourri)'
   chair: 'Eric Schufza'
-- end: 1:30 PM
-  start: 12:10 PM
+- end: 10:30 AM
+  start: 10:00 AM
   talks: []
-  title: Lunch
-  location : Coming soon...
+  title: Break
 - end: 2:50 PM
   start: 1:30 PM
   talks:
@@ -477,5 +472,9 @@ day3:
     url: 'https://dl.acm.org/authorize?N46862'
   title: Session 10 (Key Value Stores in the Cloud)
   chair: 'Heiner Litz'
-
+- end: 1:30 PM
+  start: 12:10 PM
+  talks: []
+  title: Lunch
+  location : Coming soon...
 

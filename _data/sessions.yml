@@ -386,8 +386,8 @@ day3:
   talks: []
   title: Breakfast
   location : Coming soon...
-- end: 12:10 PM
-  start: 10:30 AM
+- end: 10:20 AM
+  start: 9:00 AM
   talks:
   - authors:
     - Yizhou Shan
@@ -433,12 +433,12 @@ day3:
     url: 'https://dl.acm.org/authorize?N46870'
   title: 'Session 9 (Cloud Potpourri)'
   chair: 'Eric Schufza'
-- end: 10:30 AM
-  start: 10:00 AM
+- end: 10:50 AM
+  start: 10:20 AM
   talks: []
   title: Break
-- end: 2:50 PM
-  start: 1:30 PM
+- end: 11:50 AM
+  start: 10:50 AM
   talks:
   - authors:
     - Kefei Wang (Louisiana State University) 
@@ -462,7 +462,7 @@ day3:
   title: Session 10 (Key Value Stores in the Cloud)
   chair: 'Heiner Litz'
 - end: 1:30 PM
-  start: 12:10 PM
+  start: 11:50 AM
   talks: []
   title: Lunch
   location : Coming soon...

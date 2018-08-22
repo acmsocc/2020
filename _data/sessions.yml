@@ -444,32 +444,21 @@ day3:
     - Sourav Sikdar
     - Kia Teymourian
     - Christopher Jermaine (Rice University)
-    title: 'An Experimental Comparison of Complex Object Implementations for Big Data Systems'
+    title: 'Cascade Mapping: Optimizing the Memory Efficiency for Flash-based Key-value Caching'
     url: 'https://dl.acm.org/authorize?N46871'
   - authors:
     - Meikel Poess (Oracle)
     - Tilmann Rabl (TU Berlin)
     - Hans-Arno Jacobsen (TU Munich)
-    title: 'Analysis of TPC-DS - the First Standard Benchmark for SQL-Based Big Data Systems'
+    title: 'SifrDB: A Unified Solution for Write-Optimized Key-Value Stores in Large Datacenter'
     url: 'https://dl.acm.org/authorize?N46882'
   - authors:
-    - Neeraja J. Yadwadkar (University of California, Berkeley)
-    - Bharath Hariharan (Facebook AI Research)
-    - Joseph E. Gonzalez (University of California, Berkeley)
-    - Burton Smith (Microsoft Research)
-    - Randy Katz (University of California, Berkeley
-    title: 'Selecting the Best VM across Multiple Public Clouds: A Data-Driven Performance Modeling Approach'
-    url: 'https://dl.acm.org/authorize?N46873'
-  - authors:
-    - Hyunwook Baek (University of Utah)
-    - Cheng Jin (University of Minnesota)
-    - Guofei Jiang
-    - Cristian Lumezanu (NEC Labs America)
-    - Jacobus Van der Merwe (University of Utah)
-    - Ning Xia
-    - Qiang Xu (NEC Labs America)
-    title: 'Polygravity: Traffic Usage Accountability via Coarse-grained Measurements in Multi-tenant Data Centers'
-    url: 'https://dl.acm.org/authorize?N46862'
+    - Anastasios Papagiannis (Institute of Computer Science, FORTH ICS)
+    - Giorgos Saloustros (Institute of Computer Science, FORTH ICS)
+    - Pilar GonzÃ¡lez-FÃ©rez (Department of Computer Engineering, University of Murcia, Spain)
+    - Angelos Bilas (Institute of Computer Science, FORTH ICS)
+    title: 'An Efficient Memory-Mapped Key-Value Store for Flash Storage'
+    #url: 'https://dl.acm.org/authorize?N46873'
   title: Session 10 (Key Value Stores in the Cloud)
   chair: 'Heiner Litz'
 - end: 1:30 PM

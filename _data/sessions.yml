@@ -390,47 +390,33 @@ day3:
   start: 9:00 AM
   talks:
   - authors:
-    - Yizhou Shan
-    - Shin-Yeh Tsai
-    - Yiying Zhang (Purdue University)
-    title: 'Distributed Shared Persistent Memory'
-    url: 'https://dl.acm.org/authorize?N46863'
+    - Albert Jonathan (University of Minnesota)
+    - Abhishek Chandra (University of Minnesota)
+    - Jon Weissman (University of Minnesota)
+    title: 'Multi-Query Optimization in Wide-Area Streaming Analytics'
+    #url: 'https://dl.acm.org/authorize?N46863'
   - authors:
-    - Yusuke Suzuki (Keio University)
-    - Hiroshi Yamada (TUAT)
-    - Shinpei Kato (University of Tokyo)
-    - Kenji Kono (Keio University)
-    title: 'GLoop: An Event-driven Runtime for Consolidating GPGPU Applications'
-    url: 'https://dl.acm.org/authorize?N46744'
+    - Do Le Quoc (TU Dresden)
+    - Istemi Ekin Akkus (Nokia Bell Labs)
+    - Pramod Bhatotia (University of Edinburgh)
+    - Spyros Blanas (The Ohio State University)
+    - Ruichuan Chen (Nokia Bell Labs)
+    - Christof Fetzer (TU Dresden)
+    - Thorsten Strufe (TU Dresden)
+    title: 'ApproxJoin: Approximate Distributed Joins'
+    #url: 'https://dl.acm.org/authorize?N46744'
   - authors:
-    - Marcos K. Aguilera
-    - Nadav Amit
-    - Irina Calciu
-    - Xavier Deguillard
-    - Jayneel Gandhi
-    - Pratap Subrahmanyam
-    - Lalith Suresh
-    - Kiran Tati
-    - Rajesh Venkatasubramanian
-    - Michael Wei (VMware)
-    title: 'Remote memory in the age of fast networks [VISION]'
-    url: 'https://dl.acm.org/authorize?N46857'
+    - Renato MarroquÃ­n (ETH Zurich)
+    - Ingo MÃller (ETH Zurich) 
+    - Darko Makreshanski (Oracle Labs)
+    - Gustavo Alonso (ETH Zurich)
+    title: 'Pay One, Get Hundreds for Free: Reducing Cloud Costs through Shared Query Execution'
+    #url: 'https://dl.acm.org/authorize?N46857'
   - authors:
-    - Kun Suo
-    - Yong Zhao
-    - Jia Rao (The University of Texas at Arlington)
-    - Luwei Cheng (Facebook)
-    - Xiaobo Zhou (The University of Colorado, Colorado Springs)
-    - Francis C. M. Lau (The University of Hong Kong)
-    title: 'Preserving I/O Prioritization in Virtualized OSes'
-    url: 'https://dl.acm.org/authorize?N46869'
-  - authors:
-    - Viktor Rosenfeld (TU Berlin)
-    - Rene Mueller
-    - Pinar Tozun
-    - Fatma Ozcan (IBM Research Almaden)
-    title: 'Processing Java UDFs in a C++ environment'
-    url: 'https://dl.acm.org/authorize?N46870'
+    - Supreeth Shastri (University of Massachusetts Amherst)
+    - David Irwin (University of Massachusetts Amherst)
+    title: 'IndeX Marks the Spot: Cost-Predictive Server Hosting in Spot Markets'
+    #url: 'https://dl.acm.org/authorize?N46869'
   title: 'Session 9 (Cloud Potpourri)'
   chair: 'Eric Schufza'
 - end: 10:50 AM

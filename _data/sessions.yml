@@ -4,13 +4,13 @@ day0:
   talks:
   - authors:
   title: Welcome Reception
+  location: Shearwater Terrace
 day1:
 - end: 8:45 AM
   start: 7:30 AM
   talks: []
   title: Breakfast
-  location : Coming soon...
-  #Salon D and E of the Grand Ballroom
+  location: Foyer
 - end: 9:00 AM
   start: 8:45 AM
   talks: []
@@ -89,17 +89,7 @@ day1:
   start: 12:10 PM
   talks: []
   title: Lunch
-  location: Coming soon...
-#- end: 2:30 PM
-#  start: 1:30 PM
-#  talks:
-#  - authors:
-#    - 'Raghu Ramakrishnan, Microsoft'
-#  title: 'Keynote 1' 
-#- end: 2:50 PM
-#  start: 1:30 PM
-#  talks: []
-#  title: Mini-break
+  location: Garden Patio and Lawn
 - end: 2:50 PM
   start: 1:30 PM
   talks:
@@ -223,14 +213,14 @@ day1:
   talks: []
   title: Poster session I
   #url: "poster-schedule.html"
-  location: Coming soon...
+  location: Shearwater 4-5
 
 day2:
 - end: 9:00 AM
   start: 7:30 AM
   talks: []
   title: Breakfast
-  location : Coming soon
+  location: Foyer
 - end: 10:00 AM
   start: 9:00 AM
   talks:
@@ -248,15 +238,15 @@ day2:
     - Faria Kalim (University of Illinois, Urbana Champaign)
     - Le Xu (University of Illinois, Urbana Champaign)
     - Sharanya Bathey (Amazon)
-    - Richa Meherwal (â€ŽphData, Inc.)
+    - Richa Meherwal (phData Inc.)
     - Indranil Gupta (University of Illinois, Urbana Champaign)
     title: 'Henge: Intent-driven Multi-Tenant Stream Processing'
     #url: 'https://dl.acm.org/authorize?N46740'
   - authors:
-    - Lixiang Ao (Unaffiliated)
-    - Liz Izhikevich (Unaffiliated)
-    - Geoffrey M. Voelker (Unaffiliated)
-    - George Porter (Unaffiliated)
+    - Lixiang Ao (UCSD)
+    - Liz Izhikevich (UCSD)
+    - Geoffrey M. Voelker (UCSD)
+    - George Porter (UCSD)
     title: 'Sprocket: A Serverless Video Processing Framework for the Cloud'
     #url: 'https://dl.acm.org/authorize?N46859'
   - authors:
@@ -267,15 +257,15 @@ day2:
     title: 'RIOS: Runtime Integrated Optimizer for Spark'
     #url: 'https://dl.acm.org/authorize?N46880'
   - authors:
-    - Andreas Kunft (Technische University Berlin)
+    - Andreas Kunft (Technische Universität Berlin)
     - Lukas Stadler (Oracle Labs)
     - Daniele Bonetta (Oracle Labs)
     - Cosmin Basca (Oracle Labs)
-    - Jens Meiners (Technische University Berlin)
-    - Sebastian BreÃŸ (DFKI GmbH) 
-    - Tilmann Rabl (Technische University Berlin)
+    - Jens Meiners (Technische Universität Berlin)
+    - Sebastian Breß (DFKI GmbH) 
+    - Tilmann Rabl (Technische Universität Berlin)
     - Juan Fumero (The University of Manchester) 
-    - Volker Markl (Technische University Berlin)
+    - Volker Markl (Technische Universität Berlin)
     title: 'ScootR: Scaling R Dataframes on Dataflow Systems'
     #url: 'https://dl.acm.org/authorize?N46743'
   - authors:
@@ -289,7 +279,7 @@ day2:
   start: 12:10 PM
   talks: []
   title: Lunch
-  location : Coming soon...
+  location: Garden Patio and Lawn
 - end: 2:30 PM
   start: 1:30 PM
   talks:
@@ -378,19 +368,19 @@ day2:
   talks: []
   title: Poster session II  
   #url: "poster-schedule.html"
-  location: Coming soon...
+  location: Shearwater 4-5
 - end: 9:00 PM
   start: 7:30 PM
   talks: []
   title: Conference Banquet
-  location: Coming soon..
+  location: Shearwater 3-4-5
 
 day3:
 - end: 9:00 AM
   start: 7:30 AM
   talks: []
   title: Breakfast
-  location : Coming soon...
+  location : Foyer
 - end: 10:20 AM
   start: 9:00 AM
   talks:
@@ -411,8 +401,8 @@ day3:
     title: 'ApproxJoin: Approximate Distributed Joins'
     #url: 'https://dl.acm.org/authorize?N46744'
   - authors:
-    - Renato MarroquÃ­n (ETH Zurich)
-    - Ingo MÃller (ETH Zurich) 
+    - Renato Marroquín (ETH Zurich)
+    - Ingo Müller (ETH Zurich) 
     - Darko Makreshanski (Oracle Labs)
     - Gustavo Alonso (ETH Zurich)
     title: 'Pay One, Get Hundreds for Free: Reducing Cloud Costs through Shared Query Execution'
@@ -444,10 +434,10 @@ day3:
     title: 'SifrDB: A Unified Solution for Write-Optimized Key-Value Stores in Large Datacenter'
     #url: 'https://dl.acm.org/authorize?N46882'
   - authors:
-    - Anastasios Papagiannis (Institute of Computer Science, FORTH ICS)
-    - Giorgos Saloustros (Institute of Computer Science, FORTH ICS)
-    - Pilar GonzÃ¡lez-FÃ©rez (Department of Computer Engineering, University of Murcia, Spain)
-    - Angelos Bilas (Institute of Computer Science, FORTH ICS)
+    - Anastasios Papagiannis (Institute of Computer Science, FORTH (ICS))
+    - Giorgos Saloustros (Institute of Computer Science, FORTH (ICS))
+    - Pilar González-Férez (Department of Computer Engineering, University of Murcia, Spain)
+    - Angelos Bilas (Institute of Computer Science, FORTH (ICS))
     title: 'An Efficient Memory-Mapped Key-Value Store for Flash Storage'
     #url: 'https://dl.acm.org/authorize?N46873'
   title: Session 10 (Key Value Stores in the Cloud)
@@ -456,5 +446,4 @@ day3:
   start: 11:50 AM
   talks: []
   title: Lunch
-  location : Coming soon...
-
+  location: Garden Patio and Lawn

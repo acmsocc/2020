@@ -225,7 +225,6 @@ day1:
   url: "poster-schedule.html"
   location: Coming soon...
 
-  
 day2:
 - end: 9:00 AM
   start: 7:30 AM
@@ -386,13 +385,7 @@ day3:
   start: 7:30 AM
   talks: []
   title: Breakfast
-  location : Salon D and E of the Grand Ballroom
-- end: 10:00 AM
-  start: 9:00 AM
-  talks:
-  - authors:
-    - 'Magda Balazinska, University of Washington'
-  title: 'Keynote 3'
+  location : Coming soon...
 - end: 10:30 AM
   start: 10:00 AM
   talks: []
@@ -442,13 +435,13 @@ day3:
     - Fatma Ozcan (IBM Research Almaden)
     title: 'Processing Java UDFs in a C++ environment'
     url: 'https://dl.acm.org/authorize?N46870'
-  title: 'Session 9 (The Cloud is the OS is the Cloud)'
-  chair: 'Chris Douglas'
+  title: 'Session 9 (Cloud Potpourri)'
+  chair: 'Eric Schufza'
 - end: 1:30 PM
   start: 12:10 PM
   talks: []
   title: Lunch
-  location : Salon D and E of the Grand Ballroom
+  location : Coming soon...
 - end: 2:50 PM
   start: 1:30 PM
   talks:
@@ -482,74 +475,7 @@ day3:
     - Qiang Xu (NEC Labs America)
     title: 'Polygravity: Traffic Usage Accountability via Coarse-grained Measurements in Multi-tenant Data Centers'
     url: 'https://dl.acm.org/authorize?N46862'
-  title: Session 10 (The Data-driven Cloud)
-  chair: 'Theo Benson'
-- end: 3:00 PM
-  start: 2:50 PM
-  talks: []
-  title: Mini-break
-- end: 4:00 PM
-  start: 3:00 PM
-  talks:
-  - authors:
-    - Jonas Traub (Technische Universität Berlin)
-    - Sebastian Breß (DFKI)
-    - Tilmann Rabl (Technische Universität Berlin)
-    - Asterios Katsifodimos (SAP Germany)
-    - Volker Markl (Technische Universität Berlin)
-    title: 'Optimized On-Demand Data Streaming from Sensor Nodes'
-    url: 'https://dl.acm.org/authorize?N46883'
-  - authors:
-    - Manos Karpathiotakis (EPFL)
-    - Avrilia Floratou (Microsoft)
-    - Fatma Ozcan (IBM Research)
-    - Anastasia Ailamaki (EPFL)
-    title: 'No Data Left Behind: Real-Time Insights from a Complex Data Ecosystem'
-    url: 'https://dl.acm.org/authorize?N46856'
-  - authors:
-    - Muhammad Bilal (Universite catholiqué de Louvain and KAUST)
-    - Marco Canini (KAUST)
-    title: 'Towards Automatic Parameter Tuning of Stream Processing Systems'
-    url: 'https://dl.acm.org/authorize?N46853'
-  title: Session 11 (Streaming the Cloud)
-  chair: 'Avrilia Floratou'
-- end: 4:30 PM
-  start: 4:00 PM
-  talks: []
-  title: Break
-- end: 5:50 PM
-  start: 4:30 PM
-  talks:
-  - authors:
-    - Zhigang Wang (Northeastern University)
-    - Lixin Gao (University of Massachusetts Amherst)
-    - Yu Gu
-    - Yubin Bao
-    - Ge Yu (Northeastern University)
-    title: 'FSP: Towards Flexible Synchronous Parallel Framework for Expectation-Maximization based Algorithms on Cloud'
-    url: 'https://dl.acm.org/authorize?N46748'
-  - authors:
-    - Haoyu Zhang
-    - Logan Stafman
-    - Andrew Or
-    -  Michael J. Freedman (Princeton University)
-    title: 'SLAQ: Quality-Driven Scheduling for Distributed Machine Learning'
-    url: 'https://dl.acm.org/authorize?N46878'
-    best: true
-  - authors:
-    - Changyeon Jo
-    - Youngsu Cho
-    - Bernhard Egger (Seoul National University)
-    title: 'A Machine Learning Approach to Live Migration Modeling'
-    url: 'https://dl.acm.org/authorize?N46875'
-  - authors:
-    - Jaeseong Im
-    - Jongyul Kim
-    - Jonguk Kim (School of Computing, KAIST)
-    - Seongwook Jin (KIWIPLUS)
-    - Seungryoul Maeng (School of Computing, KAIST)
-    title: 'On-demand Virtualization for Live Migration in Bare Metal Cloud'
-    url: 'https://dl.acm.org/authorize?N46877'
-  title: Session 12 (Learning and Migration in the Cloud)
-  chair: 'John Wilkes'	
+  title: Session 10 (Key Value Stores in the Cloud)
+  chair: 'Heiner Litz'
+
 

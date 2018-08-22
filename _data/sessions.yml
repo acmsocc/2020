@@ -304,38 +304,32 @@ day2:
   start: 2:40 PM
   talks:
   - authors:
-    - Yanfang Le (University of Wisconsin-Madison)
-    - Hyunseok Chang
-    - Sarit Mukherjee
-    - Limin Wang (Nokia Bell Labs)
-    - Aditya Akella
-    - Michael Swift (University of Wisconsin-Madison)
-    - T.V. Lakshman (Nokia Bell Labs)
-    title: 'UNO: Unifying Host and Smart NIC Offload for Flexible Packet Processing'
-    url: 'https://dl.acm.org/authorize?N46887'
+    - Ting Dai (North Carolina State University)
+    - Jingzhu He (North Carolina State University) 
+    - Xiaohui Gu (North Carolina State University)
+    - Shan Lu (University of Chicago)
+    - Peipei Wang (North Carolina State University)
+    title: 'DScope: Detecting Real-World Data Corruption Hang Bugs in Cloud Server Systems'
+    #url: 'https://dl.acm.org/authorize?N46887'
   - authors:
-    - Diego Lugones
-    - Jordi Arjona Aroca
-    - Yue Jin
-    - Alessandra Sala
-    - Volker Hilt (Nokia Bell Labs)
-    title: 'AidOps: A Data-Driven Provisioning of High-Availability Services in Cloud'
-    url: 'https://dl.acm.org/authorize?N46874'
+    - Pedro Las-Casas (Universidade Federal de Minas Gerais)
+    - Jonathan Mace (Brown University) 
+    - Dorgival Guedes (Universidade Federal de Minas Gerais)
+    - Rodrigo Fonseca (Brown University)
+    title: 'Weighted Sampling of Execution Traces: Capturing More Needles and Less Hay'
+    #url: 'https://dl.acm.org/authorize?N46874'
   - authors:
-    - Kenichi Yasukata
-    - Felipe Huici (NEC Laboratories Europe)
-    - Vincenzo Maffione
-    - Giuseppe Lettieri (University of Pisa)
-    -  Michio Honda (NEC Laboratories Europe)
-    title: 'HyperNF: Building a High Performance, High Utilization and Fair NFV Platform'
-    url: 'https://dl.acm.org/authorize?N46850'
+    - Michael Whittaker (UC Berkeley)
+    - Cristina Teodoropol (UC Berkeley) 
+    - Peter Alvaro (UC Santa Cruz)
+    - Joseph M. Hellerstein (UC Berkeley)
+    title: 'Debugging Distributed Systems with Why-Across-Time Provenance'
+    #url: 'https://dl.acm.org/authorize?N46850'
   - authors:
-    - Yutaro Hayakawa (Keio University)
-    - Lars Eggert (NetApp)
-    - Michio Honda (NEC Laboratories Europe)
-    - Douglas Santry (NetApp)
-    title: 'Prism: A Proxy Architecture for Datacenter Networks [VISION]'
-    url: 'https://dl.acm.org/authorize?N46852'
+    - Qixiao Liu (Shenzhen Institute of Advanced Technology, Chinese Academy of Science)
+    - Zhibin Yu (Shenzhen Institute of Advanced Technology, Chinese Academy of Science)
+    title: 'The Elasticity and Plasticity in Semi-Containerized Co-locating Cloud Workload: a View from Alibaba Trace'
+    #url: 'https://dl.acm.org/authorize?N46852'
   title: Session 7 (Visibility and Debugging)
   chair: 'Han Wang'
 - end: 4:30 PM
@@ -346,27 +340,33 @@ day2:
   start: 4:30 PM
   talks:
   - authors:
-    - Qizhen Zhang (University of Pennsylvania)
-    - Hongzhi Chen (Chinese University of Hong Kong)
-    - Da Yan (University of Alabama at Birmingham)
-    - James Cheng (Chinese University of Hong Kong)
-    - Boon Thau Loo (University of Pennsylvania)
-    - Purushotham Bangalore (University of Alabama at Birmingham)
-    title: 'Architectural Implications on the Performance and Cost of Graph Analytics Systems'
-    url: 'https://dl.acm.org/authorize?N46741'
+    - Hyunwook Baek (University of Utah)
+    - Eric Eide (University of Utah)
+    - Robert Ricci (University of Utah)
+    - Jacobus Van der Merwe (University of Utah)
+    title: 'I Heard It through the Firewall: Exploiting Cloud Management Services as an Information Leakage Channel'
+    #url: 'https://dl.acm.org/authorize?N46741'
   - authors:
-    - Marco Serafini
-    - Gianmarco De Francisci Morales
-    - Georgos Siganos (Qatar Computing Research Institute)
-    title: 'QFrag: Distributed Graph Search via Subgraph Isomorphism'
-    url: 'https://dl.acm.org/authorize?N46865'
+    - Ian A. Kash (University of Illinois at Chicago)
+    - Greg O'Shea (Microsoft Research)
+    - Stavros Volos (Microsoft Research)
+    title: 'DC-DRF: Adaptive Multi-Resource Sharing at Public Cloud Scale'
+    #url: 'https://dl.acm.org/authorize?N46865'
   - authors:
-    - Yuanyuan Sun, Yu Hua (Huazhong University of Science and Technology)
-    - Xue Liu (McGill University)
-    - Shunde Cao
-    - Pengfei Zuo (Huazhong University of Science and Technology)
-    title: 'DLSH: A Distribution-aware LSH Scheme for Approximate Nearest Neighbor Query in Cloud Computing'
-    url: 'https://dl.acm.org/authorize?N46867'
+    - Kirill L. Bogdanov (KTH Royal Institute of Technology)
+    - Waleed Reda (Universite catholique de Louvain / KTH Royal Institute of Technology)
+    - Gerald Q. Maguire Jr. (KTH Royal Institute of Technology)
+    - Dejan Kostic (KTH Royal Institute of Technology)
+    - Marco Canini (KAUST)
+    title: 'Fast and Accurate Load Balancing for Geo-Distributed Storage Systems'
+    #url: 'https://dl.acm.org/authorize?N46867'
+  - authors:
+    - Hyuk-Jin Jeong (Seoul National University)
+    - Hyeon-Jae Lee (Seoul National University)
+    - Chang Hyun Shin (Seoul National University)
+    - Soo-Mook Moon (Seoul National University)
+    title: 'IONN: Incremental Offloading of Neural Network Computations from Mobile Devices to Edge Servers'
+    #url: 'https://dl.acm.org/authorize?N46867'
   title: Session 8 (Cloud Resource Management)
   chair: Coming soon...
 - end: 6:00 PM

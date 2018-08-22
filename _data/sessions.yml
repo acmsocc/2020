@@ -441,17 +441,17 @@ day3:
   start: 1:30 PM
   talks:
   - authors:
-    - Sourav Sikdar
-    - Kia Teymourian
-    - Christopher Jermaine (Rice University)
+    - Kefei Wang (Louisiana State University) 
+    - Feng Chen (Louisiana State University)
     title: 'Cascade Mapping: Optimizing the Memory Efficiency for Flash-based Key-value Caching'
-    url: 'https://dl.acm.org/authorize?N46871'
+    #url: 'https://dl.acm.org/authorize?N46871'
   - authors:
-    - Meikel Poess (Oracle)
-    - Tilmann Rabl (TU Berlin)
-    - Hans-Arno Jacobsen (TU Munich)
+    - Fei Mei (Huazhong University of Science and Technology)
+    - Qiang Cao (Huazhong University of Science and Technology) 
+    - Hong Jiang (University of Texas at Arlington)
+    - Jingjun Li (Huazhong University of Science and Technology)
     title: 'SifrDB: A Unified Solution for Write-Optimized Key-Value Stores in Large Datacenter'
-    url: 'https://dl.acm.org/authorize?N46882'
+    #url: 'https://dl.acm.org/authorize?N46882'
   - authors:
     - Anastasios Papagiannis (Institute of Computer Science, FORTH ICS)
     - Giorgos Saloustros (Institute of Computer Science, FORTH ICS)

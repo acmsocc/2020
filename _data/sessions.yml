@@ -225,7 +225,7 @@ day2:
   start: 9:00 AM
   talks:
   - authors:
-    - 'John Wikes, Principal Software Engineer, Google'
+    - 'John Wilkes, Principal Software Engineer, Google'
   title: 'Building the warehouse scale computer'
 - end: 10:30 AM
   start: 10:00 AM

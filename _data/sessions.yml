@@ -226,7 +226,7 @@ day2:
   talks:
   - authors:
     - 'John Wilkes, Principal Software Engineer, Google'
-  title: 'Keynote 1: Building the warehouse scale computer'
+  title: 'Keynote 1: Building the Warehouse Scale Computer'
 - end: 10:30 AM
   start: 10:00 AM
   talks: []
@@ -285,7 +285,7 @@ day2:
   talks:
   - authors:
     - 'Gustavo Alonso, Professor of Computer Science, ETH Zurich'
-  title: 'Keynote 2: How Hardware Evolution is Dreiving Software Systems'
+  title: 'Keynote 2: How Hardware Evolution is Driving Software Systems'
 - end: 2:40 PM
   start: 2:30 PM
   talks: []

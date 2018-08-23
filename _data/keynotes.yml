@@ -6,7 +6,7 @@ wilkes:
   enough power, cooling, networking, physical racks, data centers and (over longer a time-frame) wind power; cope with variances 
   in delivery times from supply logistics hiccups; do multi-year cost-optimal placement+decisions in the face of literally 
   thousands of different machine configurations; keep track of parts; schedule repairs, upgrades, and installations; and 
-  generally make all this happen behind the scenes at minimum cost. And then we get to dynamically allocate resources 
+  generally make all this happen behind the scenes at minimum cost. And then after breakfast, we get to dynamically allocate resources 
   (on the small-minutes timescale) to the product groups that need them most urgently, accurately reflecting the cost 
   (opex/capex) of all the machines and infrastructure we just deployed, and monitoring and controlling the datacenter power 
   and cooling systems to achieve minimum overheads - even as we replace all of these on the fly. This talk will highlight some of 

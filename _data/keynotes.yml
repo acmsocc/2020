@@ -19,7 +19,7 @@ wilkes:
   
   
 gustavo:
-  name: 'Alonso Gustavo  (ETH Zürich)'
+  name: 'Gustavo Alonso (ETH Zürich)'
   title: 'How Hardware Evolution is Driving Software Systems'
   abstract: "Computing Systems are undergoing a multitude of interesting changes: from the platforms (cloud, appliances) to the 
   workloads, data types, and operations (big data, machine learning). Many of these changes are driven or being tackled through 

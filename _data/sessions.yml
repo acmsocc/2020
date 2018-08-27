@@ -176,7 +176,8 @@ day1:
   - authors:
     - Daniel Williams (IBM Research)
     - Ricardo Koller (IBM Research)
-    - Nikhil Acharya Prakash (Bits Pilani)
+    - Martin Lucina (robur.io/CCT)
+    - Nikhil Acharya Prakash (Bits Pilani) 
     title: 'Unikernels as Processes'
     #url: 'https://dl.acm.org/authorize?N46886'
   - authors:

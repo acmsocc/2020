@@ -43,9 +43,9 @@ carey:
   Dr. Carey is an ACM Fellow, an IEEE Fellow, a member of the National Academy of Engineering, and a recipient of 
   the ACM SIGMOD E.F. Codd Innovations Award. His current interests all center around data-intensive computing and 
   scalable data management (a.k.a. Big Data).
-#gustavo:
-#  name: 'Gustavo Alonso (ETH Zürich)'
-#  title: 'How Hardware Evolution is Driving Software Systems'
+carey:
+  name: 'Michael J. Carey (UC Irvine)'
+  title: 'Big NoSQL Data, Apache AsterixDB, and Beyond'
 #  abstract: "Computing Systems are undergoing a multitude of interesting changes: from the platforms (cloud, appliances) to the 
 #  workloads, data types, and operations (big data, machine learning). Many of these changes are driven or being tackled through 
 #  innovation in hardware even to the point of having fully specialized designs for particular applications. In this talk I will 

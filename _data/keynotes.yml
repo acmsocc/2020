@@ -22,7 +22,7 @@ carey:
   title: 'Big NoSQL Data, Apache AsterixDB, and Beyond'
   abstract: "Big Data comes in many shapes and sizes. Today's varieties of Big Data include Big Tabular Data."
   bio1: "Michael J. Carey received his B.S. and M.S. degrees from Carnegie-Mellon University and his Ph.D. from the 
-  University of California, Berkeley, in 1979, 1981, and 1983, respectively."
+  University of California, Berkeley, in 1979, 1981, and 1983, respectively. He is currently a Bren Professor of Information and Computer Sciences at the University of California, Irvine (UCI) and a Consulting Architect at Couchbase, Inc. Before joining UCI in 2008, Dr. Carey worked at BEA Systems for seven years and led the development of BEA's AquaLogic Data Services Platform product for virtual data integration. He also spent a dozen years teaching at the University of Wisconsin-Madison, five years at the IBM Almaden Research Center working on object-relational databases, and a year and a half at e-commerce platform startup Propel Software during the infamous 2000-2001 Internet bubble. Dr. Carey is an ACM Fellow, an IEEE Fellow, a member of the National Academy of Engineering, and a recipient of the ACM SIGMOD E.F. Codd Innovations Award. His current interests all center around data-intensive computing and scalable data management (a.k.a. Big Data)."
 #  bio1: "Gustavo Alonso is a Professor of Computer Science at ETH Zürich. He studied telecommunications -electrical engineering- at the 
 #  Madrid Technical University (ETSIT, Politécnica de Madrid). As a Fulbright scholar, he completed an M.S. and Ph.D. in Computer Science 
 #  at UC Santa Barbara. After graduating from Santa Barbara, he worked at the IBM Almaden Research Center before joining ETHZ. 

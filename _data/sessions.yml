@@ -46,7 +46,7 @@ day1:
     title: 'Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training'
     #url: 'https://dl.acm.org/authorize?N46854'
   title: 'Session 1 (Machine Learning)'
-  chair: coming soon...
+  chair: 'Iqbal Mohomed'
 - end: 10:50 AM
   start: 10:20 AM
   talks: []
@@ -124,7 +124,7 @@ day1:
     title: 'Overload Control for Scaling WeChat Microservices'
     #url: 'https://dl.acm.org/authorize?N46742'
   title: Session 3 (Cloud Scheduling)
-  chair: Coming soon...
+  chair: 'Patrick Stuedi'
 - end: 3:00 PM
   start: 2:50 PM
   talks: []
@@ -165,7 +165,7 @@ day1:
     title: 'Netco: Cache and I/O Management for Analytics over Disaggregated Stores'
     #url: 'https://dl.acm.org/authorize?N46749'
   title: Session 4 (Storage in the Cloud)
-  chair: Haryadi Gunawi
+  chair: 'Haryadi Gunawi'
 - end: 4:30 PM
   start: 4:00 PM
   talks: []
@@ -204,7 +204,7 @@ day1:
     title: 'VIP: Virtual Performance-State for Efficient Power Management of Virtual Machines'
     #url: 'https://dl.acm.org/authorize?N46895'
   title: Session 5 (Cloud Infrastructure)
-  chair: Coming soon..
+  chair: 'Shahram Ghandeharizadeh'
 - end: 6:00 PM
   start: 5:50 PM
   talks: []
@@ -275,7 +275,7 @@ day2:
     title: 'GraPU: Accelerate Real-Time Graph Analysis through Preprocessing Buffered Updates'	
     #url: 'https://dl.acm.org/authorize?N46851'
   title: 'Session 6 (Cloud Compute Engines)'
-  chair: Coming soon
+  chair: 'Chris Rossbach'
 - end: 1:30 PM
   start: 12:10 PM
   talks: []
@@ -322,7 +322,7 @@ day2:
     title: 'The Elasticity and Plasticity in Semi-Containerized Co-locating Cloud Workload: a View from Alibaba Trace'
     #url: 'https://dl.acm.org/authorize?N46852'
   title: Session 7 (Visibility and Debugging)
-  chair: 'Han Wang'
+  chair: 'Tyson Condie'
 - end: 4:30 PM
   start: 4:00 PM
   talks: []
@@ -359,7 +359,7 @@ day2:
     title: 'IONN: Incremental Offloading of Neural Network Computations from Mobile Devices to Edge Servers'
     #url: 'https://dl.acm.org/authorize?N46867'
   title: Session 8 (Cloud Resource Management)
-  chair: Coming soon...
+  chair: 'Jayneel Gandhi'
 - end: 6:00 PM
   start: 5:50 PM
   talks: []

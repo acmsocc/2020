@@ -285,8 +285,8 @@ day2:
   start: 1:30 PM
   talks:
   - authors:
-    - 'Gustavo Alonso, Professor of Computer Science, ETH Zurich'
-  title: 'Keynote 2: How Hardware Evolution is Driving Software Systems'
+    - 'Michael J. Carey, Professor of Information and Computer Sciences at the UC Irvine'
+  title: 'Keynote 2: Big NoSQL Data, Apache AsterixDB, and Beyond'
 - end: 2:40 PM
   start: 2:30 PM
   talks: []

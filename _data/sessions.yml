@@ -287,7 +287,6 @@ day2:
   - authors:
     - 'Michael J. Carey, Professor of Information and Computer Sciences at the UC Irvine'
   title: 'Keynote 2: Big NoSQL Data, Apache AsterixDB, and Beyond'
-  url: '<a href="assets/mike-talk.pdf"> <b>Michael Carey's Talk</b> </a>'
 - end: 2:40 PM
   start: 2:30 PM
   talks: []

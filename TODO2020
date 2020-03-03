@@ -2,15 +2,20 @@
 Done:
     index.html
     header.html (menu lives here, as well as sponsor icons atop)
+    general updates
+    officers
     
-Update:
+To Update:
     cfp: papers.html
-    diversity.html (does not exist yet)
     accommodation.html
         Add information about hotel
         Information about registration forthcoming
+To publish: 
+    go to settings in github and select master branch to be the
+github pages branch
 
 Later:
+    * diversity.html (does not exist yet)
     * call for posters
     * registration
     * student scholarships

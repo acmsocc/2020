@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include slider-co.html %}
+{% include slider-simple.html content="<h2>Conference officers</h2>"%}
 
 <!-- Content -->
 <div class="block">
@@ -22,8 +22,8 @@ layout: default
 				  <article class="paragraph-wrapper" style="padding-left:0;">
 				    <div class="inner">
         
-				      <header><a target="_blank" href="https://www.cs.washington.edu/people/faculty/magda">Magdalena Balazinska </a></header>
-				      <figure>University of Washington and Google</figure>
+				      <header><a target="_blank" href="https://cs.brown.edu/people/rfonseca">Rodrigo Fonseca</a></header>
+				      <figure>Brown University and Microsoft</figure>
 
 				    </div>
 				  </article>
@@ -39,8 +39,8 @@ layout: default
                                 <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
 				  <article class="paragraph-wrapper" style="padding-left:0;">
 				    <div class="inner">
-				      <header><a target="_blank" href="https://engineering.columbia.edu/faculty/roxana-geambasu">Roxana Geambasu</a></header>
-				      <figure>Columbia University </figure>        
+				      <header><a target="_blank" href="http://www.csl.cornell.edu/~delimitrou/">Christina Delimitrou</a></header>
+				      <figure>Cornell University </figure>        
 				    </div>
 				  </article>
 				</div><!-- /.author -->
@@ -51,8 +51,8 @@ layout: default
 				  <article class="paragraph-wrapper" style="padding-left:0;">
 				    <div class="inner">
 
-				      <header><a target="_blank" href="http://web.eecs.umich.edu/~mozafari/">Barzan Mozafari</a></header>
-				      <figure>University of Michigan, Ann Arbor</figure>        
+				      <header><a target="_blank" href="https://www.comp.nus.edu.sg/~ooibc">Beng-Chin Ooi</a></header>
+				      <figure>National University of Singapore</figure>        
         
 				    </div>
 				  </article>
@@ -61,6 +61,7 @@ layout: default
                             </div> <!-- end row -->
                         </section><!-- /#program-chairs -->
 			    
+{%comment%}
 			<section id="industrial-chairs">
                             <header><h2 class="no-divider">Industrial chairs</h2></header>
                             <div class="row">
@@ -91,7 +92,7 @@ layout: default
                               </div>
                             </div> <!-- end row -->
                         </section><!-- /#industrial-chairs -->
-						
+{%endcomment%}						
 			<section id="steering-committee">
                             <header><h2 class="no-divider">Steering committee</h2></header>
                             <div class="row">
@@ -101,7 +102,7 @@ layout: default
 				    <div class="inner">
 
 				      <header><a target="_blank" href="https://www.microsoft.com/en-us/research/people/ccurino/">Carlo Curino</a></header>
-				      <figure>Microsoft Research</figure>
+				      <figure>Microsoft</figure>
         
 				    </div>
 				  </article>
@@ -149,9 +150,9 @@ layout: default
                         </section><!-- /#steering-committee -->
 
 			    
-			 
+{%comment%}
 			<section id="poster-chairs">
-                            <header><h2 class="no-divider"> Poster Chairs</h2></header>
+                            <header><h2 class="no-divider"> Poster chairs</h2></header>
                             <div class="row">
                               <div class="col-md-6">
                                 <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
@@ -181,9 +182,9 @@ layout: default
                             </div> 
                         </section>
 			    
+{%endcomment%}			    
 			    
-			    
-			    
+{%comment%}
                         <section id="local">
                           <div class="row">
                             <div class="col-md-6">
@@ -199,8 +200,8 @@ layout: default
                             </div>
                           </div>
                         </section>
-                   
-
+{%endcomment%}
+{%comment%}
                         <section id="treasurer">
                           <div class="row">
                             <div class="col-md-6">
@@ -218,9 +219,10 @@ layout: default
                            </div>
                           </div>
                         </section>
-
+{%endcomment%}
+{%comment%}
 			<section id="proceedings">
-                            <header><h2 class="no-divider">Proceedings Chair</h2></header>
+                            <header><h2 class="no-divider">Proceedings chair</h2></header>
                             <div class="row">
                               <div class="col-md-6">
                                 <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
@@ -234,7 +236,7 @@ layout: default
                               </div>    
                            </div>
                         </section><!-- /#Proceedings-chair -->
-			    
+{%endcomment%}
 			    
 			<section id="publicity">
                             <header><h2 class="no-divider">Publicity chair and Webmaster</h2></header>
@@ -244,9 +246,9 @@ layout: default
                 		 <article class="paragraph-wrapper" style="padding-left:0;">
     				<div class="inner">
         
-      				  <header><a target="_blank" href="http://www.cs.brandeis.edu/~olga/">Olga Papaemmanouil </a></header>
+      				  <header><a target="_blank" href="https://people.umass.edu/shastri">Supreeth Shastri</a></header>
         
-       				 <figure>Brandeis University</figure>
+       				 <figure>UT Austin</figure>
     				</div>
   				</article>
 				</div>
@@ -272,57 +274,45 @@ layout: default
                               </div>
                             </div>
                         </section>    
-			    
-			<!--section id="publication">
-                          <header><h2 class="no-divider">Publication chair</h2></header>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
-  				<article class="paragraph-wrapper" style="padding-left:0;">
-    				  <div class="inner">
+				<section id="sponsorship">
+                            <header><h2 class="no-divider">Sponsorship chair</h2></header>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
+                		 <article class="paragraph-wrapper" style="padding-left:0;">
+    				<div class="inner">
         
-        			    <header><a target="_blank" href="https://interesaaat.github.io">Matteo Interlandi</a></header>
-                		    <figure>Microsoft Research</figure>
-    				  </div>
- 				</article>
-			      </div>
+      				  <header><a target="_blank" href="https://anakli.inf.ethz.ch/">Ana Klimovic</a></header>
+        
+       				 <figure>ETH Zurich</figure>
+    				</div>
+  				</article>
+				</div>
+                              </div>
                             </div>
-                          </div>
-                        </section-->
-				    
+                        </section>
+			    
                         <section id="scholarship-chairs">
-                          <header><h2 class="no-divider">Scholarship Chairs</h2></header>
+                          <header><h2 class="no-divider">Scholarship chair</h2></header>
                           <div class="row">
                             <div class="col-md-6">
                               <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
 				<article class="paragraph-wrapper" style="padding-left:0;">
 				  <div class="inner">
 
-				    <header><a target="_blank" href="https://www.soe.ucsc.edu/people/nawab">Faisal Nawab</a></header>
-				    <figure>University of California Santa Cruz </figure>
+				    <header><a target="_blank" href="https://www.microsoft.com/en-us/research/people/daberg/">Daniel Berger</a></header>
+				    <figure>Microsoft Research</figure>
 
 				  </div>
 				</article>
 			      </div>
 				  </div>
-			  <div class="col-md-6">
-                                <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
-				  <article class="paragraph-wrapper" style="padding-left:0;">
-				    <div class="inner">
-
-				       <header><a target="_blank" href="https://odin.cse.buffalo.edu/people/oliver_kennedy.html">Oliver Kennedy</a></header>
-       				<figure>SUNY Buffalo</figure>       
-        
-				    </div>
-				  </article>
-				</div><!-- /.author -->
-                              </div>
                             </div> <!-- end row -->
                         </section><!-- /#scholarship-chairs -->
 				
-				  
+{%comment%}				  
 			<section id="socialmedia">
-                          <header><h2 class="no-divider">Social Media Chair</h2></header>
+                          <header><h2 class="no-divider">Social Media chair</h2></header>
                           <div class="row">
                             <div class="col-md-6">
                               <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
@@ -337,22 +327,7 @@ layout: default
                             </div>
                           </div>
                         </section>
-
-			<!--section id="webmaster">
-                          <header><h2 class="no-divider">Webmaster</h2></header>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <div class="author-block course-speaker" style="padding:0; margin:0; border-bottom:none;">
-				<article class="paragraph-wrapper" style="padding-left:0;">
-				  <div class="inner">
-				    <header><a target="_blank" href="http://alumni.cs.ucr.edu/~kishore/">Kishore Pusukuri</a></header>
-				    <figure>NetApp</figure>
-				  </div>
-				</article>
-			      </div>
-			    </div>
-			  </div>
-			</section-->
+{%endcomment%}
 
                 </div><!-- /#page-main -->
             </div><!-- /.col-md-6 -->

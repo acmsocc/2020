@@ -1,4 +1,4 @@
-# SoCC 2019 Website
+# SoCC 2020 Website
 
 ## Instructions for making changes to website
 

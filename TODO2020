@@ -4,12 +4,9 @@ Done:
     header.html (menu lives here, as well as sponsor icons atop)
     general updates
     officers
-    
-To Update:
-    cfp: papers.html (update content from https://docs.google.com/document/d/1tTKb7BgF03lYJIhpdEmA4048IA96sqsc2aYPXuY-GUc/edit )
+    papers.html
     accommodation.html
-        Add information about hotel: https://www.hyatt.com/en-US/hotel/washington/hyatt-regency-lake-washington-at-seattles-southport/searl
-        Information about registration forthcoming
+	    
 To publish: 
     go to settings in github and select master branch to be the
 github pages branch

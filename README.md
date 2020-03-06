@@ -1,5 +1,7 @@
 # SoCC 2020 Website
 
+Live site at https://acmsocc.github.io/2020/
+
 ## Instructions for making changes to website
 
 ### Step 1: Github account
@@ -19,7 +21,7 @@ If you don't have git installed in your computer, please follow the instructions
 
 From your unix terminal window use the following command to check out the repository
 
-> git clone https://github.com/acmsocc/2019.git
+> git clone https://github.com/acmsocc/2020.git
 
 A directory called 2019 will be created which houses the repository. The repository might not contain any code since it is the master. You need to check out the branch called gh-pages. 
 For checking out the branch, use the following

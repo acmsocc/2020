@@ -1,6 +1,7 @@
 # SoCC 2020 Website
 
 Live site at https://acmsocc.github.io/2020/
+=======
 
 ## Instructions for making changes to website
 

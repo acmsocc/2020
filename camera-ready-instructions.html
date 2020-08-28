@@ -107,7 +107,8 @@ for each paper – all files which were used to create the final output (PDF), b
 In anticipation of serving both accessibility compliant PDF and responsive HTML5 formatted files from the ACM Digital 
 Library, ACM is now enforcing this requirement.
 				
-				The materials should be prepared this way:
+				The materials should be prepared this way (see below
+for the paper formatting FAQ):
 			</p><ul>
         <li><p> Format the paper using the acmart.cls file available in <a href="https://acmsocc.github.io/2020/assets/socc20-final-template.tar.gz">
           socc20-final-template.tar.gz</a>. Inside the archive, <b>follow the socc20-template-final.tex file</b>;  search for "[SoCC CHANGE]" for imporant
@@ -168,6 +169,42 @@ Library, ACM is now enforcing this requirement.
             <p>
 			<b style="color:red;">Please use HotCRP to submit your camera ready materials: <a href="https://socc20.hotcrp.com" target="_blank">https://socc20.hotcrp.com</a></b>
             </p>
+
+                <a id="submit"><h2>Formatting FAQ</h2></a>
+                <ul>
+					<li><p><b>Why do I have to include the document sources?</b>The source requirement exists so that ACM can prepare accessible versions
+of the paper, separating content from presentation.
+					</p></li>
+                    <li><p>
+                        <b>How do I do X with the acmart template?</b>
+                        For more detailed help with the template, take a look at the ACM <a href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart.pdf">documentation</a>.
+                        If you find something you think would be useful for other authors, please let us know.
+                    </p></li>
+                    <li><p>
+                        <b>Our author list, or title, are long, and the headers are overlapping!</b>
+						 There are two things that can be done to fix this: (for more details take a
+						look at the acmart <a
+						href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart.pdf">documentation</a>.):
+						<br><br>
+						
+						1. Define a short version of the title: The command \title, as in the amsart
+						class, has two arguments: one optional, and one mandatory:
+						\title[⟨ShortTitle⟩]{⟨FullTitle⟩} The mandatory argument is the full title of
+						the article. The optional argument, if present, defines the shorter version of
+						the title for running heads. If the optional argument is absent, the full title
+						is used instead.  
+						<br><br> 
+						2. Define a short version of the authors:
+						\shortauthors it must follow the commands defined in this section.  After the
+						command \maketitle, the macro \shortauthors stores the names of the authors for
+						the running head. You can redefine it if the list of author’s name is too long,
+						e.g., \maketitle \renewcommand{\shortauthors}{Lin et al.}
+                    </p></li>
+                    <li><p>
+                        <b>How do I force matplotlib to not use type 3 fonts?</b>
+						<a href="http://phyletica.org/matplotlib-fonts/">This page</a> may be helpful.
+                    </p></li>
+                </ul>
 
           </div><!-- /.section-content -->
         </section><!-- /.main-content -->

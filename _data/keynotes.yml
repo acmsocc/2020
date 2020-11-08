@@ -13,20 +13,6 @@ feifei:
 juliana:
   name: 'Juliana Freire (New York University)'
   title: 'Towards Usability, Interactivity, and Trust for Data-Intensive Computations'
-  abstract: "The abundance of data, coupled with cheap and widely-available
-computing and storage, has revolutionized science, industry and
-government alike. Now, to a large extent, the bottleneck to actionable
-insights lies with people. From a data management and systems
-perspective, this leads to several challenges including the need to
-build usable and scalable tools, to support the interactivity
-requirements for exploratory analyses, and to guide the users in data
-discovery and exploration. In this talk, I will present a set of
-techniques that aim to address these challenges by combining methods
-from multiple areas of computer science. I will also describe systems
-we have built that use these techniques to empower domain experts to
-explore data and build trust in the insights they derive." 
-  
-  
-  
-  
+  abstract: "The abundance of data, coupled with cheap and widely-available computing and storage, has revolutionized science, industry and government alike. Now, to a large extent, the bottleneck to actionable insights lies with people. From a data management and systems perspective, this leads to several challenges including the need to build usable and scalable tools, to support the interactivity requirements for exploratory analyses, and to guide the users in data discovery and exploration. In this talk, I will present a set of techniques that aim to address these challenges by combining methods from multiple areas of computer science. I will also describe systems we have built that use these techniques to empower domain experts to explore data and build trust in the insights they derive." 
+  bio1: "Juliana Freire is a Professor at the Department of Computer Science and Engineering at New York University.  She also holds an appointment in the Courant Institute for Mathematical Science and is a faculty member at the NYU Center of Data Science. Her research interests are in large-scale data analysis, visualization, and provenance management. An important theme is Professor Freire's work is the development of data management techniques and infrastructure to address problems introduced by emerging applications. Recently, her work has focused on the analysis and visualization urban, scientific and Web data.  Within scientific data management, she is best known for her work in provenance and computational reproducibility, and for being a co-creator of the open-source VisTrails system (http://www.vistrails.org).  Professor Freire is an active member of the database and Web research communities, having co-authored over 130 technical papers and holding 9 U.S. patents. She has chaired or co-chaired several workshops and conferences, and has participated as a program committee member in over 60 events.  She has received several awards, including an NSF CAREER, an IBM Faculty award, and a Google Faculty Research award. Her research has been funded by grants from the National Science Foundation, Department of Energy, National Institutes of Health, University of Utah, NYU, Sloan Foundation, Betty Moore Foundation, Google, Amazon, Microsoft Research, Yahoo! and IBM."
   

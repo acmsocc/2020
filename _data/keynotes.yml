@@ -1,60 +1,30 @@
-matei:
-  name: 'Matei Zaharia (Stanford University)'
-  title: 'Lessons from Large-Scale Software as a Service at Databricks'
-  abstract: "The cloud has become one of the most attractive ways for enterprises to purchase software, but 
-  it requires building products in a very different way from traditional software, which has not been heavily 
-  studied in research. I will explain some of these challenges based on my experience at Databricks, a startup that 
-  provides a data analytics platform as a service on AWS and Azure. Databricks manages millions of VMs per day to run 
-  data engineering and machine learning workloads using Apache Spark, TensorFlow, Python and other software for thousands 
-  of customers. Two main challenges arise in this context: (1) building a reliable, scalable control plane that can manage 
-  thousands of customers at once and (2) adapting the data processing software itself (e.g. Apache Spark) for an elastic 
-  cloud environment (for instance, autoscaling instead of assuming static clusters). These challenges are especially 
-  significant for data analytics workloads whose users constantly push boundaries in terms of scale (e.g. number of VMs used, 
-  data size, metadata size, number of concurrent users, etc). I’ll describe some of the common challenges that our new 
-  services face and some of the main ways that Databricks has extended and modified open source analytics software for the 
-  cloud environment (e.g., designing an autoscaling engine for 
-  Apache Spark and creating a transactional storage layer on top of S3 in the Delta Lake open source product)."
-  bio1: "Matei Zaharia is an Assistant Professor of Computer Science at Stanford University and Chief Technologist at 
-  Databricks. He started the Apache Spark project during his PhD at UC Berkeley in 2009, and has worked broadly on 
-  datacenter systems, co-starting the Apache Mesos project and contributing as a committer on Apache Hadoop. 
-  Today, Matei tech-leads the MLflow open source machine learning platform at Databricks and is a PI in the 
-  DAWN Lab focusing on systems for ML at Stanford. Matei’s research was recognized through the 2014 ACM Doctoral 
-  Dissertation Award for the best PhD dissertation in computer science, an NSF CAREER Award, and the US Presidential Early Career Award for Scientists and Engineers (PECASE)."
+ricardo:
+  name: 'Ricardo Bianchini (Microsoft Research)'
+  title: 'Serverless in Seattle: Toward Making Serverless the Future of the Cloud'
+  abstract: "The serverless computing paradigm has attractive properties, such as pay-per-use and fast scale-out.  Unfortunately, it also has some key shortcomings that have so far limited its wide applicability.  For example, current approaches for cold-start management either incur high latency or high resource overheads.  As another example, running data-intensive applications in serverless platforms is currently slow or requires additional machinery.  In this talk, I will describe our efforts towards understanding current serverless workloads, optimizing their cold start performance and efficiency, and broadening the scope of applications that can run efficiently in serverless platforms.  Some of these efforts have already started transitioning to production in Azure Functions.  I will conclude the talk with some open challenges going forward" 
+  bio1: "Dr. Ricardo Bianchini is a Distinguished Engineer at Microsoft, where he leads efforts to improve the efficiency of the company's online services and datacenters. He also leads the Systems Research Group at Microsoft Research in Redmond. His main research interests include cloud and serverless computing, datacenter efficiency, and leveraging machine learning to improve systems. He has published nine award papers and received the CAREER award from the National Science Foundation. He has given several conference keynote talks and served on numerous program committees, including as Program Co-Chair of ASPLOS’18, EuroSys’17, and ICDCS’16. He is an ACM Fellow and an IEEE Fellow"
  
-raluca:
-  name: 'Raluca Ada Popa (UC Berkeley)'
-  title: 'Securing data in compromised clouds'
-  abstract: "Clouds store a lot of sensitive data. Traditional cloud security relies on building software walls around 
-  sensitive data to prevent attackers from breaking in. Nevertheless, attackers always manage to break in because software 
-  is complex and thus cannot be exploit-free. A line of cryptographic systems, however, departs from this approach, and 
-  provides security guarantees even when attackers have compromised the cloud. In this talk, I will survey a decade of such 
-  cryptographic systems, highlighting 
-  he main design principles and lessons learned, and pointing to the state-of-the-art systems that one can use today."
-  bio1: "Raluca Ada Popa is an assistant professor of computer science at UC Berkeley working in computer security, systems, 
-  and applied cryptography. She is a co-founder and co-director of the RISELab at UC Berkeley, as well as a co-founder and 
-  CTO of a cybersecurity startup called PreVeil. Raluca has received her PhD in computer science as well as her Masters and 
-  two BS degrees, in computer science and in mathematics, from MIT. She is the recipient of a Sloan Foundation Fellowship 
-  award, Technology Review 35 Innovators under 35, Microsoft Research Faculty Fellowship, George 
-  M. Sprowls Award for best MIT CS doctoral thesis, and a Johnson award for best CS Masters of Engineering thesis from MIT."
+feifei:
+  name: 'Feifei Li (Alibaba)'
+  title: 'Cloud Native Database Systems for Enterprise Applications'
+  abstract: "Cloud native database becomes increasingly important for the era of cloud computing, due to the needs for elasticity and high availability. A cloud native database system leverages software-hardware codesign to explore accelerations offered by new hardware such as RDMA and NVM. New design architectures such as shared-storage and shared everything enable a cloud native database to decouple computation from storage and provide elasticity. For highly concurrent workloads that require horizontal scalability, a cloud native database can also leverage a shared nothing layer to provide distributed query and transaction processing. Cloud applications also require that cloud native databases to offer high availability through distributed consensus protocols.  Furthermore, The need for integrating big data processing workloads with a traditional OLAP data warehouse inside a cloud native database/data warehouse becomes increasingly imperative, so that the system can provide both real time online interactive analytics and batched offline ETL with complex computation. We will present key technical ideas towards building cloud native database systems, as well as the application and integration and big data and AI techniques in such systems" 
+  bio1: "Feifei Li is currently a Vice President of Alibaba Group, ACM Distinguished Scientist, President of the Database Products Business Unit of Alibaba Cloud Intelligence, and Director of the Database and Storage Lab of DAMO academy. He has won multiple awards from ACM and IEEE and others. He is a recipient of the ACM SoCC 2019 Best Paper Award Runner-up, IEEE ICDE 2014 10 Years Most Influential Paper Award, ACM SIGMOD 2016 Best Paper Award, ACM SIGMOD 2015 Best System Demonstration Award, IEEE ICDE 2004 Best Paper Award. He has been an associate editor, PC co-chairs, and core committee members for many prestigious journals and conferences, and has led the R&D efforts of building cloud native database systems and products at Alibaba"
   
-sarah:
-  name: 'Sarah Guo (Greylock Partners)'
-  title: 'Startups that stand out from the cloud'
-  abstract: "The transition of traditional IT to cloud architectures and technologies is a trillion-dollar commercial 
-  opportunity, and we’re still in the early innings of that shift. Venture-backed startups are competing alongside the 
-  big three platform providers to bring cloud technologies to market. What types of companies are VC-investable, what 
-  advantages do tiny teams have, and what does leading venture capital firm and cloud investor Greylock Partners look for? 
-  This talk will orient an academic audience in the considerations of early technology company-building, outline areas of 
-  investing interest, and discuss some common pitfalls for startups emerging from academia."
-  bio1: "Sarah Guo is a General Partner at early-stage venture capital firm Greylock Partners, where her mission is to partner 
-  with founders to productize disruptive ideas, get advantaged distribution, and build dominant businesses. 
-  She focuses on opportunities in B2B applications and infrastructure, cyber security, artificial intelligence and the 
-  intersection of software and healthcare. She led or co-led Greylock’s investments in Awake Security, Cleo, Demisto, Obsidian, 
-  Sqreen and Utmost. She also works closely with Coda and Figma. Prior to joining Greylock, Sarah was at Goldman Sachs, 
-  where she invested in and advised growth-stage technology startups including Dropbox and Workday. She is an advocate 
-  for STEM education for women and the underserved. She taught Marketing in the Wharton Undergraduate Program. 
-  Sarah has four degrees from the Wharton School and the University of Pennsylvania. 
-  She is part of Linkedin’s Next Wave, Forbes’ 30 Under 30, and the Midas Brink List."
+juliana:
+  name: 'Juliana Freire (New York University)'
+  title: 'Towards Usability, Interactivity, and Trust for Data-Intensive Computations'
+  abstract: "The abundance of data, coupled with cheap and widely-available
+computing and storage, has revolutionized science, industry and
+government alike. Now, to a large extent, the bottleneck to actionable
+insights lies with people. From a data management and systems
+perspective, this leads to several challenges including the need to
+build usable and scalable tools, to support the interactivity
+requirements for exploratory analyses, and to guide the users in data
+discovery and exploration. In this talk, I will present a set of
+techniques that aim to address these challenges by combining methods
+from multiple areas of computer science. I will also describe systems
+we have built that use these techniques to empower domain experts to
+explore data and build trust in the insights they derive." 
   
   
   

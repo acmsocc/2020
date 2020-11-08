@@ -1,633 +1,521 @@
-day0:
-- end: 8 PM
-  start: 6:30 PM
-  talks: 
-  - authors: (for attendees staying at Chaminade)
-  title: Dinner
- # location: TBA  
-- end: []
-  start: 8 PM
-  talks: 
-  - authors: Sponsored by Google Cloud Platform
-  title: Welcome Reception 
 day1:
-- end: 8:20 AM
-  start: 7:30 AM
+- end: 9:45 AM
+  start: 9:30 AM
   talks: 
-  - authors: (for attendees staying at Chaminade)
-  title: Breakfast
-  #location: Foyer
-- end: 8:35 AM
-  start: 8:20 AM
-  talks: []
-  title: Chairs' Welcome 
-- end: 9 AM
-  start: 8:35 AM
-  title: 10 year Perspective
-  talks:
-  - authors: 
-    - Raghu Ramakrishnan (Microsoft) 
-    slides: 'slides/socc19-slides-keynote-ramakrishnan.pdf'
-    audio: 'audio/socc19-audio-10years-raghu.mp3'
-- end: 10:30 AM
-  start: 9:00 AM
-  talks: 
-  - authors: 
-    - Tian Zhang 
-    - Dong Xie 
-    - Feifei Li 
-    - Ryan Stutsman (University of Utah)
-    title: 'Narrowing the Gap Between Serverless and its State with Storage Functions'		
-    url: 'https://dl.acm.org/citation.cfm?id=3362723'
-    slides: 'slides/socc19-slides-s1-zhang.pdf'
-    audio: 'audio/socc19-audio-s1-zhang.mp3'
-  - authors: 
-    - Joao Carreira (UC Berkeley)
-    - Pedro Fonseca (Purdue University)
-    - Alexey Tumanov
-    - Andrew Zhang
-    - Randy Katz (UC Berkeley)
-    title: 'Cirrus: a Serverless Framework for End-to-end ML Workflows' 					
-    url: 'https://dl.acm.org/citation.cfm?id=3362711'
-    slides: 'slides/socc19-slides-s1-carreira.pdf'
-    audio: 'audio/socc19-audio-s1-carreira.mp3'
-  - authors: 
-    - Harshit Daga (Georgia Institute of Technology)
-    - Patrick Nicholson (Nokia Bell Labs)
-    - Ada Gavrilovska (Georgia Institute of Technology)
-    - Diego Lugones (Nokia Bell Labs)
-    title: 'Cartel: A System for Collaborative Transfer Learning at the Edge'						
-    url: 'https://dl.acm.org/citation.cfm?id=3362708'
-    slides: 'slides/socc19-slides-s1-daga.pdf'
-    audio: 'audio/socc19-audio-s1-daga.mp3'
-  - authors: 
-    - Hyuk-Jin Jeong
-    - Chang Hyun Shin
-    - Kwang Yong Shin
-    - Hyeon-Jae Lee
-    - Soo-Mook Moon (Seoul National University)
-    title: 'Seamless Offloading of Web App Computations From Mobile Device to Edge Clouds via HTML5 Web Worker Migration'	
-    url: 'https://dl.acm.org/citation.cfm?id=3362735'
-    slides: 'slides/socc19-slides-s1-jeong.pdf'
-    audio: 'audio/socc19-audio-s1-jeong.mp3'
-  title: Session 1 (Edge Computing and Serverless Computing)
-  chair: 'Faisal Nawab'
+  - authors:
+    - Rodrigo Fonseca (Microsoft Research, Brown University)
+    - Christina Delimitrou (Assistant Professor, Cornell University)
+    - Beng Chin Ooi (Distinguished Professor, National University of Singapore)
+  title: Welcome Session
+  url: https://www.youtube.com/watch?v=6vMn-O5GL5k
 - end: 11:00 AM
-  start: 10:30 AM
-  talks: 
-  - authors: Sponsored by Microsoft
-  title: Break
-- end: 12:30 PM
+  start: 9:45 AM
+  title: Keynote 1
+  url: https://www.youtube.com/watch?v=EzuydTtMn3g
+  talks:
+  - authors:
+    - Ricardo Bianchini (Lead, Systems Research Group, Microsoft Research)
+    title: 'Serverless in Seattle: Toward Making Serverless the Future of the Cloud'  
+- end: 12:00 PM
   start: 11:00 AM
   talks: 
   - authors: 
-    - Jinquan Dai (Intel)
-    - Yiheng Wang (Tencent)
-    - Xin Qiu (Intel)
-    - Ding Ding (Intel)
-    - Yao Zhang (Sequoia Capital)
-    - Yanzhang Wang (Intel)
-    - Xianyan Jia (Alibaba)
-    - Li Zhang (Intel)
-    - Yan Wan (Alibaba)
-    - Zhichao Li (Intel)
-    - Jiao Wang (Intel)
-    - Shengsheng Huang (Intel)
-    - Zhongyuan Wu (Intel)
-    - Yang Wang (Intel)
-    - Yuhao Yang (Intel)
-    - Bowen She (Intel)
-    - Dongjie Shi (Intel)
-    - Qi Lu (Intel)
-    - Kai Huang (Intel)
-    - Guoqiong Song (Intel)
-    title: 'BigDL: A Distributed Deep Learning Framework for Big Data'
-    url: 'https://dl.acm.org/citation.cfm?id=3362707'
-    slides: 'slides/socc19-slides-s2-dai.pdf'
-    audio: 'audio/socc19-audio-s2-dai.mp3'
+    - Benjamin Carver (George Mason University)
+    - Jingyuan Zhang (George Mason University)
+    - Ao Wang (George Mason University)
+    - Ali Anwar (IBM Research–Almaden)
+    - Panruo Wu (University of Houston)
+    - Yue Cheng (George Mason University)
+    title: 'Wukong: A Scalable and Locality-Enhanced Framework for Serverless Parallel Computing'		
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421286'
+    slides:
+    audio:
   - authors: 
-    - Richard Liaw
-    - Romil Bhardwaj
-    - Lisa Dunlap
-    - Yitian Zou
-    - Alexey Tumanov
-    - Joseph Gonzalez
-    - Ion Stoica (UC Berkeley)
-    title: 'HyperSched: Dynamic Resource Reallocation for Model Development on a Deadline'
-    url: 'https://dl.acm.org/citation.cfm?id=3362719'
-    slides: 'slides/socc19-slides-s2-liaw.pdf'
+    - Shelby Thomas
+    - Lixiang Ao
+    - Geoffrey M. Voelker
+    - George Porter (UC San Diego)
+    title: 'Particle: Ephemeral Endpoints for Serverless Networking' 					
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421275'
+    slides:
+    audio:
   - authors: 
-    - Zachary Zimmerman
-    - Kaveh Kamgar
-    - Nader Shakibay Senobari
-    - Yan Zhu
-    - Brian Crites
-    - Gareth Funning
-    - Philip Brisk
-    - Eamonn Keogh (University of California, Riverside)
-    title: 'Matrix Profile XIV: Scaling Time Series Motif Discovery with GPUs to Break a Quintillion Pairwise Comparisons a Day and Beyond'
-    url: 'https://dl.acm.org/citation.cfm?id=3362721'
-    slides: 'slides/socc19-slides-s2-zimmerman.pdf'
-  - authors:
-    - Hongzhi Chen
-    - Changji Li
-    - Juncheng Fang
-    - Chenghuan Huang
-    - James Cheng
-    - Jian Zhang
-    - Yifan Hou
-    - Xiao Yan (The Chinese University of Hong Kong)
-    title: 'Grasper: A High Performance Distributed System for OLAP on Property Graphs'
-    url: 'https://dl.acm.org/citation.cfm?id=3362715'
-    slides: 'slides/socc19-slides-s2-chen.pdf'
-    audio: 'audio/socc19-audio-s2-chen.mp3'
-  title: Session 2 (Systems for ML and Data Mining)
-  chair: 'Neeraja Yadwadkar'
-- end: 1:20 PM
+    - Tianyi Yu (Shanghai Jiao Tong University)
+    - Qingyuan Liu (Shanghai Jiao Tong University)
+    - Dong Du (Shanghai Jiao Tong University)
+    - Yubin Xia (Shanghai Jiao Tong University)
+    - Binyu Zang (Shanghai Jiao Tong University)
+    - Ziqian Lu (Ant Financial)
+    - Pingchao Yang (Ant Financial)
+    - Chenggang Qin (Ant Financial)
+    - Haibo Chen (Shanghai Jiao Tong University) 
+    title: 'Characterizing Serverless Platforms with ServerlessBench'						
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421280'
+    slides: 
+    audio: 
+  - authors: 
+    - Vojislav Dukic
+    - Rodrigo Bruno
+    - Ankit Singla
+    - Gustavo Alonso (ETH Zürich)
+    title: 'Photons: Lambdas on a diet'	
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421297'
+    slides:
+    audio:
+  title: Session 1 (Serverless Computing I)
+  url: https://www.youtube.com/watch?v=xlETnwfUWto
+  chair: 'Neeraja Yadwadkar (Postdoctoral Research Fellow, Stanford University)'
+- end: 12:30 PM
+  start: 12:00 PM
+  title: Gather Break
+  talks: []
+- end: 1:45 PM
   start: 12:30 PM
-  talks: []
-  title: Lunch (for all attendees)
-  #location: Garden Patio and Lawn
-- end: 2:10 PM
-  start: 1:20 PM
-  talks: []
-  title: Poster Session 1
-  # chair: 'Patrick Stuedi'
-- end: 2:50 PM
-  start: 2:10 PM
-  title: Keynote 1
-  talks:
-  - authors: 
-    - Matei Zaharia (Stanford, Databricks) 
-    slides: 'slides/socc19-slides-keynote-zaharia.pdf'
-    audio: 'audio/socc19-audio-keynote-zaharia.mp3'
-- end: 3:00 PM
-  start: 2:50 PM
-  talks: []
-  title: Mini-break 
-- end: 4:30 PM
-  start: 3:00 PM
   talks: 
   - authors: 
-    - Fabien Hermenier
-    - Aditya Ramesh
-    - Abhinay Nagpal
-    - Himanshu Shukla
-    - Ramesh Chandra (Nutanix)
-    title: 'Hotspot Mitigations for the Masses'
-    url: 'https://dl.acm.org/citation.cfm?id=3362717'
-    slides: 'slides/socc19-slides-s3-hermenier.pdf'
-    audio: 'audio/socc19-audio-s3-hermenier.mp3'
+    - Xuanhua Shi, Zezhao (Huazhong University of Science and Technology)
+    - Feng, Kaixi Li (Huazhong University of Science and Technology)
+    - Yongluan Zhou (University of Copenhagen)
+    - Hai Jin, Yan Jiang (Huazhong University of Science and Technology)
+    - Bingsheng He (National University of Singapore)
+    - Zhijun Ling, Xin Li (Bytedance Inc.)
+    title: 'ByteSeries : An In-Memory Time Series Database for Large-Scale Monitoring Systems'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421289'
+    slides:
+    audio:
   - authors: 
-    - Fan Guo
-    - Yongkun Li (University of Science and Technology of China)
-    - John C. S. Lui (The Chinese University of Hong Kong)
-    - Yinlong Xu (University of Science and Technology of China)
-    title: 'DCUDA: Dynamic GPU Scheduling with Live Migration Support'
-    url: 'https://dl.acm.org/citation.cfm?id=3362714'
-    slides: 'slides/socc19-slides-s3-guo.pdf'
-    audio: 'audio/socc19-audio-s3-guo.mp3'
+    - Giorgos Kappes
+    - Stergios V. Anastasiadis (University of Ioannina)
+    title: 'A User-level Toolkit for Storage I/O Isolation on Multitenant Hosts'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421293'
+    slides:
+    audio:
   - authors: 
-    - Ataollah Fatahi Baarzi
-    - Timothy Zhu
-    - Bhuvan Urgaonkar (The Pennsylvania State University)
-    title: 'BurScale: Using Burstable Instances for Cost-Effective Autoscaling in the Public Cloud'
-    url: 'https://dl.acm.org/citation.cfm?id=3362706'
-    slides: 'slides/socc19-slides-s3-fatahi.pdf'
-    audio: 'audio/socc19-audio-s3-fatahi.mp3'
-  - authors: 
-    - Huangshi Tian
-    - Yunchuan Zheng
-    - Wei Wang (HKUST)
-    title: 'Characterizing and Synthesizing Task Dependencies of Data-Parallel Jobs in Alibaba Cloud'
-    url: 'https://dl.acm.org/citation.cfm?id=3362710'
-    slides: 'slides/socc19-slides-s3-tian.pdf'
-    audio: 'audio/socc19-audio-s3-tian.mp3'
-  title: Session 3 (Scheduling and Resource Allocation 1)
-  chair: 'Neeraja Yadwadkar'
-- end: 5 PM
-  start: 4:30 PM
-  talks: []
-  title: Break  
-- end: 6:30 PM
-  start: 5 PM
-  talks: 
+    - Yu Sun
+    - Jiaxin Lei
+    - Seunghee Shin
+    - Hui Lu (Binghamton University)
+    title: 'BAOVERLAY: A Block-Accessible Overlay File System for Fast and Efficient Container Storage'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421291'
+    slides: 
+    audio:
   - authors:
-    - Sonika Jindal
-    - Robert Ricci (University of Utah)
-    title: 'MME-FaaS Cloud-Native Control for Mobile Networks' 
-    url: 'https://dl.acm.org/citation.cfm?id=3362722'
-    slides: 'slides/socc19-slides-s4-jindal.pdf'
-  - authors: 
-    - Kostis Kaffes
-    - Neeraja Yadwadkar (Stanford University)
-    - Christos Kozyrakis (Stanford University, Google)
-    title: 'Centralized Core-granular Scheduling for Serverless Functions'
-    url: 'https://dl.acm.org/citation.cfm?id=3362709'
-    slides: 'slides/socc19-slides-s4-kaffes.pdf'
-  - authors: 
-    - Emre Ates (Boston University)
-    - Lily Sturmann (RedHat, Inc.)
-    - Mert Toslali
-    - Orran Krieger (Boston University)
-    - Richard Megginson (RedHat, Inc.)
-    - Ayse K. Coskun (Boston University)
-    - Raja R. Sambasivan (Tufts University)
-    title: 'An Automated, Cross-layer Instrumentation Framework for Diagnosing Performance Problems in Distributed Applications'
-    url: 'https://dl.acm.org/citation.cfm?id=3362704'
-    slides: 'slides/socc19-slides-s4-ates.pdf'
-  - authors: 
-    - Pradeep Dogga (UCLA)
-    - Karthik Narasimhan (Princeton University)
-    - Anirudh Sivaraman (NYU)
-    - Ravi Netravali (UCLA)
-    title: 'A System-Wide Debugging Assistant Powered by Natural Language Processing'
-    url: 'https://dl.acm.org/citation.cfm?id=3362701'
-    slides: 'slides/socc19-slides-s4-dogga.pdf'
-  title: Session 4 (Vision)
-  chair: 'Roxana Geambasu'
-- end: 8 PM
-  start: 6:30 PM
-  talks: 
-  - authors: (for attendees staying at Chaminade)
-  title: Dinner  
-- end: []
-  start: 8 PM
+    - Anuj Kalia (Microsoft Research)
+    - David Andersen (Carnegie Mellon University)
+    - Michael Kaminsky (BrdgAI, Carnegie Mellon University)
+    title: 'Challenges and Solutions for Fast Remote Persistent Memory Access (Best Paper Award)'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421294'
+    slides:
+    audio:
+  - authors:
+    - Chandranil Chakraborttii
+    - Heiner Litz (University of California Santa Cruz)
+    title: 'Improving the Accuracy, Adaptability, and Interpretability of SSD Failure Prediction Models'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421300'
+    slides:
+    audio:
+  title: Session 2 (Memory Management)
+  url: https://www.youtube.com/watch?v=oalLqJN1d3o
+  chair: 'Bingsheng He (NUS)'
+- end: 2:30 PM
+  start: 1:45 PM
+  talks: []
+  title: Gather
+- end: 3:30 PM
+  start: 2:30 PM
   talks:
-  - authors: 
-    - Tuan Tran
-    - Priyanka Mondal
-    - Roy Shadmon
-    - Manthan Mallikarjun
-    - Peter Alvaro
-    - Owen Arden
-    title: 'Vote Them Out: Detecting and Eliminating Byzantine Peers'
-    url: 'https://dl.acm.org/citation.cfm?id=3365442'
-  - authors: 
-    - Jeongchul Kim
-    - Kyungyong Lee
-    title: 'Practical Cloud Workloads for Serverless FaaS'
-    url: 'https://dl.acm.org/citation.cfm?id=3365439'
-  - authors: 
-    - Yang Liu
-    - Huanle Xu
-    - Wing Cheong Lau 
-    title: 'Accordia: Adaptive Cloud Configuration Optimization for Recurring Data-Intensive Applications'
-    url: 'https://dl.acm.org/citation.cfm?id=3365441'
-  - authors: 
-    - Aman Jain
-    - Ata F. Baarzi
-    - Nader Alfares
-    - George Kesidis
-    - Bhuvan Urgaonkar
-    - Mahmut Kandemir 
-    title: 'SplitServe: Efficiently Splitting Complex Workloads Across FaaS and IaaS'
-    url: 'https://dl.acm.org/citation.cfm?id=3366027'
-  - authors: 
-    - Xi Cheng
-    - Mingge Deng
-    - Jiaxun Wu
-    - Amir Hormati (Google)
-    title: 'Extending Kmeans to Cluster Mixed Geo & Non-Geo Data in BigQuery'
-  - authors: 
-    - Akshat Vig
-    - Doug Terry
-    - Jaso Sorenson
-    - Somu Perianayagam (Amazon AWS)
-    - Stefano Stefani
-    - Tony Petrossian 
-    title: 'Fast Distributed Transactions at Scale for DynamoDB'
-  - authors: 
-    - Hiren Patel
-    - Alekh Jindal
-    - Clemens Szyperski  (Microsoft)
-    title: 'Big Data Processing at Microsoft: Hyper Scale, Massive Complexity, and Minimal Cost'
-    url: 'https://dl.acm.org/citation.cfm?id=3366029'
-  title: Gong show, drinks, & anniversary cake 
-day2:
-- end: 8:20 AM
-  start: 7:30 AM
+  - authors:
+    - Neeraja Yadwadkar (Stanford University)
+    - Arjun Singhvi (University of Wisconsin - Madison)
+    - Ana Klimovic (ETH Zurich)
+    - Sadjad Fouladi (Stanford University) 
+  title: Panel 1 - Serverless Computing
+  url: https://www.youtube.com/watch?v=Uiqz98ZNDqw
+  chair: 'Keith Winstein (Stanford University)'
+- end: 8:45 PM
+  start: 8:00 PM
   talks: 
-  - authors: (for attendees staying at Chaminade)
-  title: Breakfast
-- end: 9 AM
-  start: 8:20 AM
+  - authors: 
+    - Kostis Kaffes (Stanford University)
+    - Dragos Sbirlea (Google LLC)
+    - Yiyan Lin (Google LLC)
+    - David Lo (Google LLC)
+    - Christos Kozyrakis (Stanford University)
+    title: 'Leveraging Application Classes to Save Power in Highly-Utilized Data Centers'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421274'
+    slides:
+    audio:
+  - authors: 
+    - Esmail Asyabi (Boston University)
+    - Azer Bestavros (Boston University)
+    - Erfan Sharafzadeh (Johns Hopkins University)
+    - Timothy Zhu (The Pennsylvania State University)
+    title: 'Peafowl: In-application CPU Scheduling to Reduce Power Consumption of In-memory Key-Value Stores'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421298'
+    slides:
+    audio:
+  - authors: 
+    - Thomas Kim
+    - Daniel Lin-Kit Wong
+    - Gregory R. Ganger
+    - Michael Kaminsky
+    - David G. Andersen (Carnegie Mellon Univ)
+    title: 'High availability in cheap distributed key value storage'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421290'
+    slides:
+    audio:
+  title: Session 3 (Power- and Cost-Efficient Clouds)
+  url: https://www.youtube.com/watch?v=4Yy8XizwbnY
+  chair: 'Akshitha Sriraman (University of Michigan)'
+- end: 9:15 PM
+  start: 8:45 PM
+  talks: []
+  title: Gather Wrapper  
+day2:
+- end: 11:00 AM
+  start: 9:45 AM
   talks: []
   title: Keynote 2
+  url: https://www.youtube.com/watch?v=GtdeFA_xMXU
   talks:
   - authors: 
-    - Sarah Guo (Greylock Partners) 
-    slides: 'slides/socc19-slides-keynote-guo.pdf'
-    audio: 'audio/socc19-audio-keynote-guo.mp3'
-- end: 10:30 AM
-  start: 9 AM
+    - Feifei Li (President of Database Systems, Alibaba) 
+    slides:
+    audio:
+- end: 11:45 AM
+  start: 11:00 AM
   talks:
   - authors: 
-    - Amrita Mazumdar
-    - Brandon Haynes
-    - Magda Balazinska
-    - Luis Ceze
-    - Alvin Cheung
-    - Mark Oskin (University of Washington)
-    title: 'Perceptual Compression for Video Storage and Processing Systems'
-    url: 'https://dl.acm.org/citation.cfm?id=3362725'
-    slides: 'slides/socc19-slides-s5-mazumdar.pdf'
-    audio: 'audio/socc19-audio-s5-mazumdar.mp3'
+    - Shouqian Shi (University of California, Santa Cruz)
+    - Ye Yu (Google)
+    - Minghao Xie (University of California, Santa Cruz)
+    - Xin Li (Google)
+    - Xiaozhou Li (Celer Network)
+    - Ying Zhang (Facebook)
+    - Chen Qian (University of California, Santa Cruz)
+    title: 'Concury: A Fast and Light-weight Software Cloud Load Balancer'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421279' 
+    slides:
+    audio:
   - authors: 
-    - Cheng Pan
-    - Yingwei Luo
-    - Xiaolin Wang (Peking University)
-    - Zhenlin Wang (Michigan Tech)
-    title: 'pRedis: Penalty and Locality Aware Memory Allocation in Redis'
-    url: 'https://dl.acm.org/citation.cfm?id=3362729'
-    slides: 'slides/socc19-slides-s5-pan.pdf'
-    audio: 'audio/socc19-audio-s5-pan.mp3'
+    - Marios Kogias
+    - Rishabh Iyer
+    - Edouard Bugnionn (EPFL)
+    title: 'Bypassing the Load Balancer Without Regrets'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421304'
+    slides:
+    audio:
   - authors:
-    - Lana Ramjit (UCLA)
-    - Matteo Interlandi (Microsoft)
-    - Eugene Wu (Columbia University)
-    - Ravi Netravali (UCLA)
-    title: 'Acorn: Aggressive Result Caching in Distributed Data Processing Frameworks'
-    url: 'https://dl.acm.org/citation.cfm?id=3362702'
-    slides: 'slides/socc19-slides-s5-ramjit.pdf'
-    audio: 'audio/socc19-audio-s5-ramjit.mp3'
-  - authors: 
-    - Fan Ni (University of Texas, Arlington)
-    - Song Jiang (University of Texas at Arlington)
-    title: 'RapidCDC: Leveraging Duplicate Locality to Accelerate Chunking in CDC-based Deduplication Systems'
-    url: 'https://dl.acm.org/citation.cfm?id=3362731'
-    slides: 'slides/socc19-slides-s5-ni.pdf'
-    audio: 'audio/socc19-audio-s5-ni.mp3'
-  title: Session 5 (Deduplication, Compression, Caching)
-  chair: 'Rebecca Taft'
-- end: 11 PM
-  start: 10:30 AM
-  talks: 
-  - authors: Sponsored by Amazon Web Services  
-  title: Break
-- end : 12:30 PM
-  start: 11 AM
-  talks: 
-  - authors: 
-    - Panagiotis Garefalakis (Imperial College London)
-    - Konstantinos Karanasos (Microsoft)
-    - Peter Pietzuch (Imperial College London)
-    title: 'NEPTUNE: Scheduling Suspendable Tasks for Unified Stream/Batch Applications'
-    url: 'https://dl.acm.org/citation.cfm?id=3362724'
-    slides: 'slides/socc19-slides-s6-garefalakis.pdf'
-    audio: 'audio/socc19-audio-s6-garefalakis.mp3'
-  - authors: 
-    - Zhijun Wang
-    - Huiyang Li
-    - Zhongwei Li (The University of Texas at Arlington)
-    - Xiaocui Sun (Guangdong Pharmaceutical University)
-    - Jia Rao
-    - Hao Che
-    - Hong Jiang (The University of Texas at Arlington)
-    title: 'Pigeon: an Effective Distributed, Hierarchical Datacenter Job Scheduler'
-    url: 'https://dl.acm.org/citation.cfm?id=3362728'
-    slides: 'slides/socc19-slides-s6-wang.pdf'
-    audio: 'audio/socc19-audio-s6-wang.mp3'
-  - authors: 
-    - Wei Chen
-    - Aidi Pi
-    - Shaoqi Wang
-    - Xiaobo Zhou (University of Colorado, Colorado Springs)
-    title: 'Pufferfish: Container-driven Elastic Memory Management for Data-intensive Applications'
-    url: 'https://dl.acm.org/citation.cfm?id=3362730'
-    slides: 'slides/socc19-slides-s6-chen.pdf'
-    audio: 'audio/socc19-audio-s6-chen.mp3'
-  - authors: 
-    - Seyyed Ahmad Javadi
-    - Amoghavarsha Suresh
-    - Muhammad Wajahat
-    - Anshul Gandhi (Stony Brook University)
-    title: 'Scavenger: A Black-Box Batch Workload Resource Manager for Improving Utilization in Cloud Environments'
-    url: 'https://dl.acm.org/citation.cfm?id=3362734'
-    slides: 'slides/socc19-slides-s6-javadi.pdf'
-    audio: 'audio/socc19-audio-s6-javadi.mp3'
-  title: Session 6 (Scheduling and Resource Allocation 2) 
-  chair: 'Timothy Zhu'
-- end: 1:20 PM
-  start: 12:30 PM
-  talks: []
-  title: Lunch (for all attendees)
-- end: 2:10 PM
-  start: 1:20 PM
-  talks: []
-  title: Poster Session 2
-- end: 2:50 PM
-  start: 2:10 PM
-  title: Keynote 3
-  talks:
-  - authors: 
-    - Raluca Ada Popa (UC Berkeley) 
-    slides: 'slides/socc19-slides-keynote-popa.pdf'
-    audio: 'audio/socc19-audio-keynote-popa.mp3'
-- end: 3 PM
-  start: 2:50 PM
-  talks: []
-  title: Mini-break 
-- end: 4:30 PM
-  start: 3 PM
-  talks: 
-  - authors: 
-    - Zhilin Zhang
-    - Ke Wang
-    - Weipeng Lin (Simon Fraser University)
-    - Ada Wai-Chee Fu (The Chinese University of Hong Kong)
-    - Raymond Chi-Wing Wong (Hong Kong University of Science and Technology)
-    title: 'Repeatable Oblivious Shuffling of Large Outsourced Data Blocks'
-    url: 'https://dl.acm.org/citation.cfm?id=3362732'
-    slides: 'slides/socc19-slides-s7-zhang.pdf'
-    audio: 'audio/socc19-audio-s7-zhang.mp3'
-  - authors: 
-    - Ji-Yong Shin
-    - Jieung Kim
-    - Wolf Honore
-    - Hernan Vanzetto (Yale University)
-    - Srihari Radhakrishnan (Duke University)
-    - Mahesh Balakrishnan (Yale University / Facebook)
-    - Zhong Shao (Yale University)
-    title: 'WormSpace: A Modular Foundation for Simple, Verifiable Distributed Systems'
-    url: 'https://dl.acm.org/citation.cfm?id=3362739'
-    slides: 'slides/socc19-slides-s7-shin.pdf'
-    audio: 'audio/socc19-audio-s7-shin.mp3'
-  - authors: 
-    - Pedro Las-Casas
-    - Giorgi Papakerashvili
-    - Vaastav Anand
-    - Jonathan Mace (MPI-SWS)
-    title: 'Sifter: Scalable Sampling for Distributed Traces, without Feature Engineering'
-    url: 'https://dl.acm.org/citation.cfm?id=3362736'
-    slides: 'slides/socc19-slides-s7-las-casas.pdf'
-    audio: 'audio/socc19-audio-s7-las-casas.mp3'
-  title: Session 7 (Security, Verifiability, Performance)
-  chair: 'Raluca Popa'
-- end: 5 PM
-  start: 4:30 PM
-  talks: []
-  title: Break 
-- end: 6:30 PM
-  start: 5 PM
-  talks:
-  - authors: 
-    - Fan Guo
-    - Yongkun Li
-    - Min Lv
-    - Yinlong Xu (University of Science and Technology of China)
-    - John C. S. Lui (The Chinese University of Hong Kong)
-    title: 'HP-Mapper: A High Performance Storage Driver for Docker Containers'
-    url: 'https://dl.acm.org/citation.cfm?id=3362718'
-    slides: 'slides/socc19-slides-s8-guo.pdf'
-    audio: 'audio/socc19-audio-s8-guo.mp3'
-  - authors: 
-    - Hossein Golestani
-    - Amirhossein Mirhosseini
-    - Thomas Wenisch (University of Michigan)
-    title: 'Software Data Planes: You Cannot Always Spin to Win'    
-    url: 'https://dl.acm.org/citation.cfm?id=3362737'
-    slides: 'slides/socc19-slides-s8-golestani.pdf'
-    audio: 'audio/socc19-audio-s8-golestani.mp3'
-  - authors: 
-    - Zhenyu Zhou (Duke University)
-    - Theophilus A. Benson (Brown University)
-    title: 'Composing SDN Controller Enhancements with Mozart'
-    url: 'https://dl.acm.org/citation.cfm?id=3362712'
-    slides: 'slides/socc19-slides-s8-zhou.pdf'
-    audio: 'audio/socc19-audio-s8-zhou.mp3'
-  - authors: 
-    - Rui Li
-    - Peizhen Guo
-    - Bo Hu
-    - Wenjun Hu (Yale University)
-    title: 'Libra and the Art of Task Sizing in Big-Data Analytic Systems'
-    url: 'https://dl.acm.org/citation.cfm?id=3362720'
-    slides: 'slides/socc19-slides-s8-li.pdf'
-    audio: 'audio/socc19-audio-s8-li.mp3'
-  title: Session 8 (Performance)
-  chair: 'Alekh Jindal'
-- end: 8:00 PM
-  start: 6:30 PM
-  talks: 
-  - authors: (for attendees staying at Chaminade)
-  title: Dinner
-- end: []
-  start: 8:30 PM
-  talks: []
-  title: Band show, drinks and networking
-day3:
-- end: 8:20 AM
-  start: 7:30 AM
-  talks:
-  - authors: (for attendees staying at Chaminade)
-  title: Breakfast
-- end: 9 AM
-  start: 8:20 AM
-  title: Award Session + Award Talk 
-  talks:
-  - authors: 
-    - Award talk by Brian Cooper (Google) 
-    slides: 'slides/socc19-slides-award-talk-cooper.pdf'
-    audio: 'audio/socc19-audio-award-talk-cooper.mp3'
-- end: 10:30 AM
-  start: 9 AM
-  talks: 
-  - authors: 
-    - Liangfeng Cheng
-    - Yuchong Hu (Huazhong University of Science and Technology)
-    - Patrick P. C. Lee (The Chinese University of Hong Kong)
-    title: 'Coupling Decentralized Key-Value Stores with Erasure Coding'
-    url: 'https://dl.acm.org/citation.cfm?id=3362713'
-    slides: 'slides/socc19-slides-s9-cheng.pdf'
-    audio: 'audio/socc19-audio-s9-cheng.mp3'
-  - authors: 
-    - Kunal Lillaney (Johns Hopkins University)
-    - Vasily Tarasov
-    - David Pease (IBM Research - Almaden)
-    - Randal Burns (Johns Hopkins University)
-    title: 'Agni: An Efficient Dual-access File System over Object Storage'
-    url: 'https://dl.acm.org/citation.cfm?id=3362703'
-    slides: 'slides/socc19-slides-s9-lillaney.pdf'
-    audio: 'audio/socc19-audio-s9-lillaney.mp3'
-  - authors: 
-    - Shuyang Liu
-    - Shucheng Wang
-    - Qiang Cao
-    - Ziyi Lu (Huazhong University of Science and Technology)
-    - Hong Jiang (UT Arlington)
-    - Jie Yao (Huazhong University of Science and Technology)
-    - Yuanyuan Dong
-    - Puyuan Yang (Alibaba)
-    title: 'Analysis of and Optimization for Write-dominated Hybrid Storage Nodes in Cloud'
-    url: 'https://dl.acm.org/citation.cfm?id=3362705'
-    slides: 'slides/socc19-slides-s9-liu.pdf'
-    audio: 'audio/socc19-audio-s9-liu.mp3'
-  - authors: 
-    - Alekh Jindal
-    - Hiren Patel
-    - Abhishek Roy
-    - Shi Qiao
-    - Zhicheng Yin
-    - Rathijit Sen
-    - Subru Krishnan (Microsoft)
-    title: 'Peregrine: Workload Optimization for Cloud Query Engines'
-    url: 'https://dl.acm.org/citation.cfm?id=3362726'
-    slides: 'slides/socc19-slides-s9-jindal.pdf'
-    audio: 'audio/socc19-audio-s9-jindal.mp3'
-  title: Session 9 (Storage) 
-  chair: 'Russell Sears'
-- end: 11 AM
-  start: 10:30 AM
-  talks: []
-  title: Break 
+    - Muhammad Bilal (UCLouvain and IST(ULisboa)/INESC-ID)
+    - Marco Canini (KAUST) 
+    - Rodrigo Rodrigues (IST(ULisboa)/INESC-ID)
+    title: 'Finding the Right Cloud Configuration for Analytics Clusters'
+    url: https://dl.acm.org/doi/10.1145/3419111.3421305''
+    slides:
+    audio:
+  title: Session 4 (Load Balancing)
+  url: https://www.youtube.com/watch?v=790CXcy6RM0
+  chair: 'Patrick Stuedi (Linkedin)'
 - end: 12:30 PM
-  start: 11 AM
+  start: 11:45 AM
+  talks: 
+  - authors: Shahram Ghandeharizadeh (Director of the USC Database Laboratory, USC) 
+  title: 10 Year Award & Presentation
+  url: https://www.youtube.com/watch?v=GSab9f5Y5Ls
+- end : 1:30 PM
+  start: 12:30 PM
   talks: 
   - authors: 
-    - Ravi Netravali (UCLA)
-    - James Mickens (Harvard University)
-    title: 'Reverb: Speculative Debugging for Web Applications'
-    url: 'https://dl.acm.org/citation.cfm?id=3362733'
-    audio: 'audio/socc19-audio-s10-netravali.mp3'
+    - Peilun Li (Tsinghua University)
+    - Guosai Wang (Tsinghua University)
+    - Xiaoqi Chen (Princeton University)
+    - Fan Long (University of Toronto)
+    - Wei Xu (Tsinghua University)
+    title: 'Gosig: A Scalable and High-Performance Byzantine Consensus System for Consortium Blockchains on Wide Area Network'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421272'
+    slides:
+    audio:
   - authors: 
-    - Liqun Shao
-    - Yiwen Zhu (Microsoft Corp.)
-    - Siqi Liu (University of Pittsburgh)
-    - Abhiram Eswaran
-    - Kristin Lieber
-    - Janhavi Mahajan
-    - Minsoo Thigpen
-    - Sudhir Darbha (Microsoft Corp.)
-    - Subru Krishnan (Microsoft)
-    - Soundar Srinivasan (Microsoft Corp.)
-    - Carlo Curino
-    - Konstantinos Karanasos (Microsoft)
-    title: 'Griffon: Reasoning about Job Anomalies with Unlabeled Data in Cloud-based Platforms'
-    url: 'https://dl.acm.org/citation.cfm?id=3362716'
-    slides: 'slides/socc19-slides-s10-shao.pdf'
-    audio: 'audio/socc19-audio-s10-shao.mp3'
+    - Yilin Han (Shanghai Tree-Graph Blockchain Research Institute)
+    - Chenxing Li (Tsinghua University)
+    - Peilun Li (Tsinghua University)
+    - Ming Wu (Shanghai Tree-Graph Blockchain Research Institute)
+    - Dong Zhou (Tsinghua University)
+    - Fan Long (University of Toronto)
+    title: 'Shrec: Bandwidth-Efficient Transaction Relay in High-Throughput Blockchain Systems'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421283'
+    slides:
+    audio:
   - authors: 
-    - Bertty Contreras (QCRI)
-    - Jorge Quiane (QCRI and TU Berlin)
-    - Zoi Kaoudi (QCRI and TU Berlin)
-    - Saravanan Thirumuruganathan (QCRI) 
-    title: 'TagSniff: Simplified Big Data Debugging for Dataflow Jobs' 
-    url: 'https://dl.acm.org/citation.cfm?id=3362738'
-    slides: 'slides/socc19-slides-s10-contreras.pdf'
-    audio: 'audio/socc19-audio-s10-contreras.mp3'
+    - Yotam Harchol (EPFL)
+    - Aisha Mushtaq (UC Berkeley)
+    - Vivian Fang (UC Berkeley)
+    - James McCauley (UC Berkeleyi, ICSI)
+    - Aurojit Panda (NYU)
+    - Scott Shenker (UC Berkeley, ICSI)
+    title: 'Making Edge-Computing Resilient'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421278'
+    slides:
+    audio:
   - authors: 
-    - Jason Teoh
-    - Muhammad Ali Gulzar
-    - Guoqing Harry Xu
-    - Miryung Kim (UCLA)
-    title: 'PerfDebug: Performance Debugging of Computation Skew in Dataflow Systems'
-    url: 'https://dl.acm.org/citation.cfm?id=3362727'
-    slides: 'slides/socc19-slides-s10-teoh.pdf'
-    audio: 'audio/socc19-audio-s10-teoh.mp3'
-  title: Session 10 (Debugging and Root Cause Analysis)
-  chair: 'Timothy Zhu'
-- end: 2 PM
-  start: 12:30 PM
+    - Catalina Alvarez
+    - Zhenhao He
+    - Gustavo Alonso 
+    - Ankit Singla (ETH Zürich)
+    title: 'Specializing the network for scatter-gather workloads'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421301'
+    slides:
+    audio:
+  title: Session 5 (Decentralized Computation) 
+  url: https://www.youtube.com/watch?v=ThGJzFse9AY
+  chair: 'Dumitrel Loghin (Senior Research Fellow, National University of Singapore)'
+- end: 6:00 PM
+  start: 5:00 PM
+  talks: 
+  - authors: 
+    - Nellie Gustafsson (Microsoft)
+    title: 'Security and Sharing in Data Lake with AWS Lake Formation'
+  - authors: 
+    - Nellie Gustafsson (Microsoft)
+    title: 'Limitless end-to-end analytics powered by Azure Synapse'
+  - authors: 
+    - Xinjun(Jimmy) Yang (Alibaba)
+    title: 'Introduction to PolarDB: Alibaba Cloud Native Database'
+  title: Industry Flash Talks
+  url: https://www.youtube.com/watch?v=Diib-1fCj3Y
+  chair: 'Rodrigo Fonseca (Microsoft Research, Brown University)'
+- end: 8:00 PM
+  start: 6:00 PM
   talks: []
-  title: Lunch (for all attendees)
+  title: Poster Session and Sponsor Showcase 
+- end: 9:00 PM
+  start: 8:00 PM
+  talks:
+  - authors: 
+    - Vaishaal Shankar (UC Berkeley)
+    - Karl Krauth (UC Berkeley) 
+    - Kailas Vodrahalli (Stanford)
+    - Qifan Pu (Google)
+    - Ion Stoica (UC Berkeley)
+    - Ben Recht (UC Berkeley)
+    - Jonathan Ragan-Kelley (MIT CSAIL)
+    - Eric Jonas (University of Chicago)
+    - Shivaram Venkataraman (University of Wisconsin-Madison)
+    title: 'Serverless Linear Algebra'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421287'
+    slides:
+    audio:
+  - authors: 
+    - Arjun Singhvi (University of Wisconsin-Madison)
+    - Junaid Khalid (Google)
+    - Aditya Akella (University of Wisconsin-Madison)
+    - Sujata Banerjee (VMware Research)
+    title: 'SNF: Serverless Network Functions'    
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421295'
+    slides:
+    audio:
+  - authors: 
+    - Ali Tariq
+    - Austin Pahl
+    - Sharat Nimmagadda
+    - Eric Rozner
+    - Siddharth Lanka (University of Colorado Boulder)
+    title: 'Sequoia: Enabling Quality-of-Service in Serverless Computing'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421306'
+    slides:
+    audio:
+  - authors: 
+    - Wen Zhang (UC Berkeley)
+    - Vivian Fang (UC Berkeley)
+    - Aurojit Panda (NYU)
+    - Scott Shenker (UC Berkeley/ICSI)
+    title: 'Kappa: A Programming Framework for Serverless Computing'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421277'
+    slides:
+    audio:
+  title: Session 6 (Serverless Computing II)
+  url: https://www.youtube.com/watch?v=xpSEuiBk6_0
+  chair: 'Dilma M Da Silva (TAMU)'
+- end: 9:30 PM
+  start: 9:00 PM
+  talks: []
+  title: Gather Wrapper
+day3:
+- end: 11:00 AM
+  start: 9:45 AM
+  title: Keynote 3
+  url: https://www.youtube.com/watch?v=jMQ3Reyu3Go
+  talks:
+  - authors: 
+    - Juliana Freire (NYU) 
+- end: 12:00 PM
+  start: 11:00 AM
+  talks: 
+  - authors: 
+    - Jingzhu He (North Carolina State University)
+    - Ting Dai (IBM Research)
+    - Xiaohui Gu (North Carolina State University)
+    - Guoliang Jin (North Carolina State University)
+    title: 'HangFix: Automatically Fixing Software Hang Bugs for Production Cloud Systems'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421288'
+    slides: 
+    audio:
+  - authors: 
+    - Ting Dai (IBM Research)
+    - Alexei Karve (IBM Research)
+    - Grzegorz Koper (IBM GTS)
+    - Sai Zeng  (IBM Research)
+    title: 'Automatically Detecting Risky Scripts in Infrastructure Code'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421303'
+    slides: 
+    audio:
+  - authors: 
+    - Jason Teoh (UCLA)
+    - Muhammad Ali Gulzar (Virginia Tech)
+    - Miryung Kim (UCLA)
+    title: 'Influence-Based Provenance for Dataflow Applications with Taint Propagation'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421292'
+    slides: 
+    audio:
+  - authors: 
+    - Bohdan Trach (TU Dresden)
+    - Rasha Faqeh  (TU Dresden)
+    - Oleksii Oleksenko (TU Dresden)
+    - Wojciech Ozga (TU Dresden)
+    - Pramod Bhatotia (TU Munich)
+    - Christof Fetzer (TU Dresden)
+    title: 'T-Lease: A Trusted Lease Primitive for Distributed Systems'
+    url: 'https://dl.acm.org/doi/pdf/10.1145/3419111.3421273'
+    slides: 
+    audio:
+  title: Session 7 (Resiliency, Debugging, and Trust)
+  url: https://www.youtube.com/watch?v=oFp3WFVJXac 
+  chair: 'Christina Delimitrou (Cornell University)'
+- end: 1:00 PM
+  start: 12:00 PM
+  talks: []
+  title: Gather Break 
+- end: 2:00 PM
+  start: 1:00 PM
+  talks: 
+  - authors: 
+    - Zhiqi Lin (University of Science and Technology of China)
+    - Cheng Li
+    - Youshan Miao (Microsoft Research)
+    - Yunxin Liu (Microsoft Research)
+    - Yinlong Xu
+    title: 'PaGraph: Scaling GNN Training on Large Graphs via Computation-aware Caching'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421281'
+    slides:
+    audio:
+  - authors: 
+    - Beomyeol Jeon (University of Illinois at Urbana-Champaign)
+    - Linda Cai (Princeton University)
+    - Pallavi Srivastava (Microsoft)
+    - Jintao Jiang (University of California)
+    - Xiaolan Ke (University of Illinois at Urbana-Champaign)
+    - Yitao Meng (University of Illinois at Urbana-Champaign)
+    - Cong Xie (University of Illinois at Urbana-Champaign)
+    - Indranil Gupta (University of Illinois at Urbana-Champaign)
+    title: 'Baechi: Fast Device Placement of Machine Learning Graphs'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421302'
+    slides:
+    audio:
+  - authors: 
+    - Chen Chen (HKUST)
+    - Qizhen Weng (HKUST)
+    - Wei Wang 
+    - Baochun Li (University of Toronto)
+    - Bo Li (HKUST)
+    title: 'Semi-Dynamic Load Balancing: Efficient Distributed Learning in Non-Dedicated Environments' 
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421299'
+    slides:
+    audio:
+  - authors: 
+    - Raajay Viswanathan (Uber Technologies Inc)
+    - Arjun Balasubramanian (Amazon Web Services)
+    - Aditya Akella (University of Wisconsin-Madison)
+    title: 'Network-accelerated Distributed Machine Learning for Multi-Tenant Settings'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421296'
+    slides:
+    audio:
+  title: Session 8 (Accelerating Machine Learning)
+  url: https://www.youtube.com/watch?v=e9L8soDRCIo
+  chair: 'Jin Kyu Kim (Facebook)'
+- end: 2:30 PM
+  start: 2:00 PM
+  talks: []
+  title: Gather Break
+- end: 3:30 PM
+  start: 2:30 PM
+  talks: 
+  - authors: 
+    - Babak Falsafi (EPFL)
+    - Stanko Novakovic (Microsoft)
+    - Heiner Litz (UC Santa Cruz)
+    - Trevor E. Carlson (National University of Singapore)
+    url:
+    slides:
+    audio:
+  title: Panel (Datacenter Architectures)
+  url: https://www.youtube.com/watch?v=GadxKGT_V-Q
+  chair: 'Divy Agrawal (UCSB)'
+- end: 9:00 PM
+  start: 8:00 PM
+  talks: 
+  - authors: 
+    - Kyungtae Kim (Purdue University)
+    - Chung Hwan Kim (University of Texas at Dallas)
+    - John Junghwan Rhee (University of Central Oklahoma)
+    - Xiao Yu (NEC Laboratories America) 
+    - Haifeng Chen (NEC Laboratories America)
+    - Dave Tian (Purdue University)
+    - Byoungyoung Lee (Seoul National University)
+    title: 'Vessels: Efficient and Scalable Deep Learning Prediction on Trusted Processors'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421282'
+    slides:
+    audio:
+  - authors: 
+    - Daniel Crankshaw (Microsoft Research)
+    - Gur-Eyal Sela (UC Berkeley)
+    - Xiangxi Mo (UC Berkeley, Anyscale)
+    - Corey Zumar (Databricks)
+    - Ion Stoica (UC Berkeley, Anyscale)
+    - Joseph Gonzalez (UC Berkeley)
+    - Alexey Tumanov (Georgia Tech)
+    title: 'InferLine: Latency-Aware Provisioning and Scaling for Prediction Serving Pipelines'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421285'
+    slides:
+    audio:
+  - authors: 
+    - Aditya Dhakal (University of California)
+    - Sameer G Kulkarni (IIT, Gandhinagar)
+    - K.K. Ramakrishnan (University of California)
+    title: 'GSLICE: Controlled Spatial Sharing of GPUs for a Scalable Inference Platform' 
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421284'
+    slides:
+    audio:
+  - authors: 
+    - Yangrui Chen (The University of Hong Kong)
+    - Yanghua Peng (The University of Hong Kong)
+    - Yixin Bao (The University of Hong Kong)
+    - Chuan Wu (The University of Hong Kong)
+    - Yibo Zhu (ByteDance Inc.)
+    - Chuanxiong Guo (ByteDance Inc.)
+    title: 'Elastic Parameter Server Load Distribution in Deep Learning Clusters'
+    url: 'https://dl.acm.org/doi/10.1145/3419111.3421307'
+    slides:
+    audio:
+  title: Session 9 (Scaling Machine Learning)
+  url: https://www.youtube.com/watch?v=AaUx_GrtT-0
+  chair: 'Srinivasan Parthasarathy (IBM)'
+- end: 9:15 PM
+  start: 9:00 PM
+  talks: []
+  title: Conference Wrap-up
+- end: 9:45 PM
+  start: 9:15 PM
+  talks: []
+  title: Gather Wrapper
+
+
